@@ -9,9 +9,9 @@ children:
   - title: publications
     permalink: /publications/
   - title: divider
-  - title: projects
-    permalink: /projects/
+  - title: service
+    permalink: /service/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: misc.
+    permalink: /misc/
 ---

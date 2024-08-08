@@ -1,114 +1,126 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{xu2024kolmogorov,
+  title={Kolmogorov-Arnold Networks for Time Series: Bridging Predictive Power and Interpretability},
+  author={Xu, Kunpeng and Chen, Lifei and Wang, Shengrui},
+  journal={arXiv preprint arXiv:2406.02496},
+  year={2024},
+  preview={KAN.png},
+  abstract={Kolmogorov-Arnold Networks (KAN) is a groundbreaking model recently proposed by the MIT team, representing a revolutionary approach with the potential to be a game-changer in the field. This innovative concept has rapidly garnered worldwide interest within the AI community. Inspired by the Kolmogorov-Arnold representation theorem, KAN utilizes spline-parametrized univariate functions in place of traditional linear weights, enabling them to dynamically learn activation patterns and significantly enhancing interpretability. In this paper, we explore the application of KAN to time series forecasting and propose two variants: T-KAN and MT-KAN. T-KAN is designed to detect concept drift within time series and can explain the nonlinear relationships between predictions and previous time steps through symbolic regression, making it highly interpretable in dynamically changing environments. MT-KAN, on the other hand, improves predictive performance by effectively uncovering and leveraging the complex relationships among variables in multivariate time series. Experiments validate the effectiveness of these approaches, demonstrating that T-KAN and MT-KAN significantly outperform traditional methods in time series forecasting tasks, not only enhancing predictive accuracy but also improving model interpretability. This research opens new avenues for adaptive forecasting models, highlighting the potential of KAN as a powerful and interpretable tool in predictive analytics.},
+  pdf={https://arxiv.org/abs/2406.02496},
+  bibtex_show={true}
 }
 
-@book{einstein1956investigations,
+@inproceedings{xu2024rhine,
+  title={RHINE: A Regime-Switching Model with Nonlinear Representation for Discovering and Forecasting Regimes in Financial Markets},
+  author={Xu, Kunpeng and Chen, Lifei and Patenaude, Jean-Marc and Wang, Shengrui},
+  booktitle={Proceedings of the 2024 SIAM International Conference on Data Mining (SDM)},
+  pages={526--534},
+  year={2024},
+  organization={SIAM},
+  preview={RHINE.png},
+  abstract={We investigate the problem of discovering and forecasting regular regime switches in a financial ecosystem comprising multiple time series. Such regime switches, indicative of varying market behaviors across distinct time intervals, are pivotal for a nuanced understanding of market dynamics, which in turn allows informed model selection for forecasting and enhanced interpretability of predictive outcomes. Despite strides in this domain, prevailing methodologies often falter due to: (1) an inability to effectively model the temporal behaviors inherent in financial series; and (2) neglecting the interdependencies among series when discovering regimes. In this paper, we propose RHINE, a Regime-switcHIng model with Nonlinear rEpresentation. RHINE stands out with its kernel-based representation, adept at capturing the dynamic shifts in market regimes. This representation encapsulates the nonlinear interplay across multiple financial time series. By leveraging the kernel representation, we introduce an eigengap thresholding measure, designed to automatically discern the optimal number of financial market regimes, enhancing the model's adaptability to market fluctuations. Empirical assessments on both synthetic and real-world stock market datasets underscore RHINE's prowess. The findings illuminate that the inherent structures governing financial market behaviors are dynamic, and harnessing these dynamics via RHINE leads to a regime-based model that outperforms both conventional and state-of-the-art neural network models in predictive capabilities.},
+  pdf={https://epubs.siam.org/doi/abs/10.1137/1.9781611978032.61},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@inproceedings{xu2024kernel,
+  title={Kernel Representation Learning with Dynamic Regime Discovery for Time Series Forecasting},
+  author={Xu, Kunpeng and Chen, Lifei and Patenaude, Jean-Marc and Wang, Shengrui},
+  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  pages={251--263},
+  year={2024},
+  organization={Springer},
+  preview={PAKDD.png},
+  abstract={Correlations between variables in complex ecosystems such as weather and financial markets lead to a great amount of dynamic and co-evolving time series data, posing a significant challenge to the current forecast methods. Discovering dynamic patterns (aka regimes) is crucial to an accurate forecast, especially for the interpretability of the outcome. In this paper, we develop a kernel-based method to learn effective representations for capturing dynamically changing regimes. Each such representation accounts for the non-linear interactions among multiple time series, thereby facilitating more effective regime discovery. On the basis of regime information, we build a regression model to forecast all the variables simultaneously for the next multiple time points. The results on six real-life datasets demonstrate that our method can yield the most accurate forecast (with the lowest root mean square error) in comparison with seven predictive models.},
+  pdf={https://link.springer.com/chapter/10.1007/978-981-97-2266-2_20},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  selected={true}
 }
 
-@book{przibram1967letters,
+@inproceedings{xu2022data,
+  title={Data-driven Kernel Subspace Clustering with Local Manifold Preservation},
+  author={Xu, Kunpeng and Chen, Lifei and Wang, Shengrui},
+  booktitle={2022 IEEE International Conference on Data Mining Workshops (ICDMW)},
+  pages={876--884},
+  year={2022},
+  organization={IEEE},
+  preview={ICDM.png},
+  abstract={Kernel-based subspace clustering methods that can reveal the nonlinear structure of data are an emerging research topic. While advances have been made, existing methods suffer from one or both of the following shortcomings: (1) the predefined kernel determines their performance; (2) they may be vulnerable in arbitrary manifold subspace. In this paper, we propose a novel data-driven kernel subspace clustering model with local manifold preservation, named DKLM. Specifically, DKLM provides an explicit data-driven kernel learning strategy for learning kernel directly from the self-representation of data while satisfying the adaptive-weighting. Based on the kernel, DKLM allows preserving the local manifold structure of data through a kernel local manifold term in nonlinear space and encourages acquiring an affinity matrix with the optimal block diagonal. Various experiments on both synthetic data and real-world data demonstrate the effectiveness of our method.},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10031232},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  selected={true}
+}
+
+@article{xu2022multi,
+  title={A Multi-view Kernel Clustering framework for Categorical sequences},
+  author={Xu, Kunpeng and Chen, Lifei and Wang, Shengrui},
+  journal={Expert Systems with Applications},
+  volume={197},
+  pages={116637},
+  year={2022},
+  publisher={Elsevier},
+  preview={ESWA.png},
+  abstract={Multi-view clustering, which optimally integrates complementary information from different views to improve clustering performance, has drawn considerable attention in recent years. Despite recent advances, issues remain when dealing with data of high dimensionality and heterogeneity, especially in categorical sequences. These unique challenges and properties have motivated us to develop a novel Multi-view Kernel Clustering framework for Categorical sequences (MKCC), where views are expressed in terms of kernel matrices and a weighted combination of the instances is learned in parallel to the partitioning. Concretely, MKCC adaptively constructs the kernel matrix without the need of defining the kernel function. Nonetheless, the computational cost of storing the kernel matrix is O(N^2). To address this issue, we integrate a simple and efficient method for approximating the kernel matrix. A new multi-view clustering algorithm and a cluster validity index for categorical sequences are also proposed based on the framework. An empirical analysis on synthetic data sets and several commonly used real-world data sets demonstrates the appropriateness of the proposal, with the results showing the method's outstanding performance.},
+  pdf={https://www.sciencedirect.com/science/article/abs/pii/S0957417422001269},
+  bibtex_show={true},
+  selected={true}
+}
+
+
+@inproceedings{xu2018self,
+  title={A self-representation model for robust clustering of categorical sequences},
+  author={Xu, Kunpeng and Chen, Lifei and Wang, Shengrui and Wang, Beizhan},
+  booktitle={Web and Big Data: APWeb-WAIM 2018 International Workshops: MWDA, BAH, KGMA, DMMOOC, DS, Macau, China, July 23--25, 2018, Revised Selected Papers 2},
+  pages={13--23},
+  year={2018},
+  organization={Springer},
+  preview={APWEB.png},
+  abstract={Robust clustering on categorical sequences remains an open and challenging task due to the noise data and lack of an inherently meaningful measure of pairwise similarity between sequences. In this paper, a self-representation model is proposed as a representation of categorical sequences. Based on the model, we transform the robust clustering to a subspace clustering problem. Furthermore, an efficient algorithm for robust clustering of categorical sequences is also proposed, which provides the new measure with high-quality clustering results and the elimination of noise sequences using the subspace method. The experimental results on the synthetic and real world data demonstrate the promising performance of the proposed method.},
+  pdf={https://link.springer.com/chapter/10.1007/978-3-030-01298-4_2},
+  bibtex_show={true}
+}
+
+
+@article{Xu2024DRNet,
+	author = {Xu, Kunpeng and Chen, Lifei and Wang, Shengrui},
+	journal = {Proceedings of the Canadian Conference on Artificial Intelligence},
+	year = {2024},
+	month = {may 27},
+	note = {https://caiac.pubpub.org/pub/tcdsxqnh},
+	publisher = {Canadian Artificial Intelligence Association (CAIAC)},
+	title = {DRNet: A {Decision}-{Making} {Method} for {Autonomous} {Lane} {Changing} with {Deep} {Reinforcement} {Learning}},
+    preview={DRNET.png},
+    abstract={Machine learning techniques have outperformed many rule-based methods for the decision-making of autonomous vehicles. Despite recent efforts, lane changing remains a big challenge due to the slow learning rates and possibility of executing unsafe actions. To help improve the state-of-the-art, we propose to leverage emerging Deep Reinforcement learning (DRL) for laNE changing in Tactical level and present "'DRNet", a novel and highly efficient DRL-based framework that both enables a DRL agent to learn to drive by executing reasonable lane changing on simulated highways with an arbitrary number of lanes and overcomes limitations of inefficient learning rates in DRL. Furthermore, to obtain a safe policy for tactical decisionmaking, DRNet integrates ideas from safety verification, the most important of autonomous driving, to ensure that only safe actions are chosen at any time. With the setting of our state representation and reward function, the trained agent is able to take appropriate actions in a real-world-like simulator. Our DRL agent has the ability to learn the desired task without causing collisions and outperforms DDQN and other baseline models.},
+    pdf={https://caiac.pubpub.org/pub/tcdsxqnh/release/1},
+    bibtex_show={true}
+}
+
+@inproceedings{chen2022clustering,
+  title={Clustering-based cross-sectional regime identification for financial market forecasting},
+  author={Chen, Rongbo and Sun, Mingxuan and Xu, Kunpeng and Patenaude, Jean-Marc and Wang, Shengrui},
+  booktitle={International Conference on Database and Expert Systems Applications},
+  pages={3--16},
+  year={2022},
+  organization={Springer},
+  preview={DEXA.png},
+  abstract={Regime switching analysis is extensively advocated in many fields to capture complex behaviors underlying an ecosystem, such as the economic or financial system. A regime can be defined as a specific group of complex patterns that share common characteristics in a specific time interval. Regime switch, caused by external and/or internal drivers, refers to the changing behaviors exhibited by a system at a specific time point. The existing regime detection methods suffer from two drawbacks: they lack the capability to identify new regimes dynamically or they ignore the cross-sectional dependencies exhibited by time series data for the forecasting. This promoted us to devise a clusterbased regime identification model that can identify cross-sectional regimes dynamically with a time-varying transition probability, and capture cross-sectional dependencies underlying financial time series for market forecasting. Our approach makes use of a nonlinear model to account for the cross-sectional regime dependencies, neglected by most existing studies, that can improve the performance of a forecasting model significantly. Experimental results on both synthetic and real-world dataset demonstrate that our model outperforms state-of-the-art forecasting models.},
+  pdf={https://link.springer.com/chapter/10.1007/978-3-031-12426-6_1},
+  bibtex_show={true}
+}
+
+@inproceedings{chen2022dynamic,
+  title={Dynamic Cross-sectional Regime Identification for Financial Market Prediction},
+  author={Chen, Rongbo and Xun, Kunpeng and Patenaude, Jean-Marc and Wang, Shengrui},
+  booktitle={2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC)},
+  pages={295--300},
+  year={2022},
+  organization={IEEE},
+  preview={COMPSAC.png},
+  abstract={We investigate issues related to dynamic cross-sectional regime identification for financial market prediction. A financial market can be viewed as an ecosystem regulated by regimes that may switch at different time points. In most existing regime-based prediction models, regimes can only switch, according to a static transition probability matrix, among a fixed set of regimes identified on training data due to the fact that they lack in mechanism of identifying new regimes on test data. This prevents them from being effective as the financial markets are time-evolving and may fall into a new regime at any future time. Moreover, most of them only handle single time series, and are not capable of dealing with multiple time series. These shortcomings prompted us to devise a dynamic cross-sectional regime identification model for time series prediction. The new model is defined on a multi-time-series system, with time-varying transition probabilities, and can identify new cross-sectional regimes dynamically from the time-evolving financial market. Experimental results on realworld financial datasets illustrate the promising performance and suitability of our model.},
+  pdf={https://ieeexplore.ieee.org/abstract/document/9842528?casa_token=gISuvt9yQdEAAAAA:LO0MrTsbRPXGiwcs6xOIitPFk2zNbaAbpvPzjeysCf8MhsImOHHaJB_zYRQdGlCDNxkkHg-zxQ},
+  bibtex_show={true}
 }

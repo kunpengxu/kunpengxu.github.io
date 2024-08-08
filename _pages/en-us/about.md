@@ -3,25 +3,30 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Department of Computer Science, University of Sherbrooke, Canada
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Kunpeng Xu (徐鲲鹏)</p>
+    <p>AI Researcher</p>
+    <p>PhD Candidate @ UdeS</p>
+    <p>Email:kunpeng.xu@usherbrooke.ca<p>
 
 news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/multi-language-al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Hi! I’m Kunpeng, a PhD student of the *ProspectUs-Lab* at UdeS since 2021, advised by <a href='https://www.usherbrooke.ca/recherche/fr/specialistes/details/shengrui.wang'>Prof. Shengrui Wang</a>. My academic journey is driven by a deep appreciation for mathematics and its elegant structures, which fuel my passion for research. I am particularly fascinated by theoretical derivations and the beauty of mathematical.
+
+My research interests include time series analysis, kernel learning, and self-representation learning. I focus on forecasting, pattern mining, concept drift, and interpretability in time series; explore the theoretical connections between data-driven kernel learning and transformers; and investigate subspace clustering and its applications in AI.
+
+In addition to my PhD work, I spent a year as a visiting scholar at an autonomous driving research institute (UISEE), where I focused on reinforcement learning. Currently, we are collaborating with a Canada Financial Company (Laplace Insights) to explore Regime-switch in financial time series.
+Outside of my research, I am learning French to better integrate into the local community. 
+
+<a href='#'>Update</a>.  I will be graduating soon and I am looking for postdoc/full time research positions in representation learning/XAI of time series and more broadly in machine learning, motivated by a practical application.

@@ -1,0 +1,144 @@
+archive_category: um arquivo de postagens desta categoria
+archive_tag: um arquivo de postagens com este marcador
+archive_year: um arquivo de postagens deste ano
+blog:
+  navigation_title: blog
+categories:
+  fun: amusement
+  work: travail
+citation:
+  bibtex: "ou comme une citation en BibTeX :"
+  introduction: "Si vous avez trouvé cela utile, veuillez citer comme suit :"
+contact_note:
+cv:
+  address: Adresse
+  area: Domaine
+  awarder: Décerné par
+  awards: Prix
+  basics: Informations générales
+  certificates: Certificats
+  city: Ville
+  countryCode: Code du pays
+  courses: Cours
+  date: Date
+  education: Éducation
+  email: Email
+  endDate: Date de fin
+  fluency: Maîtrise
+  highlights: Points forts
+  image: Image
+  institution: Institution
+  interests: Intérêts
+  issuer: Émetteur
+  keywords: Mots-clés
+  label: Titre
+  language: Langue
+  languages: Langues
+  level: Niveau
+  location: Localisation
+  name: Nom
+  network: Réseau
+  organization: Organisation
+  phone: Téléphone
+  position: Poste
+  postalCode: Code postal
+  profiles: Profils
+  projects: Projets
+  publications: Publications
+  publisher: Éditeur
+  reference: Référence
+  references: Références
+  region: Région
+  releaseDate: Date de publication
+  score: Score
+  skills: Compétences
+  startDate: Date de début
+  studyType: Type d'étude
+  summary: Résumé
+  table_of_contents: Table des matières
+  title: Titre
+  url: Url
+  username: Nom d'utilisateur
+  volunteer: Bénévole
+  work: Travail
+footer_text: > # le symbole ">" signifie ignorer les sauts de ligne jusqu'à "titles:"
+  Développé avec <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> avec le thème <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+  Hébergé par <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+latest_posts: Derniers articles
+months:
+  long:
+    january: Janvier
+    february: Février
+    march: Mars
+    april: Avril
+    may: Mai
+    june: Juin
+    july: Juillet
+    august: Août
+    september: Septembre
+    october: Octobre
+    november: Novembre
+    december: Décembre
+  short:
+    january: Jan
+    february: Fév
+    march: Mar
+    april: Avr
+    may: Mai
+    june: Jun
+    july: Juil
+    august: Août
+    september: Sep
+    october: Oct
+    november: Nov
+    december: Déc
+news: actualités
+newsletter:
+  back: Retour
+  error: "Oups! Quelque chose s'est mal passé, veuillez réessayer."
+  subscribe: S'inscrire
+  subscribed: "Vous vous êtes inscrit avec succès à la newsletter."
+  subscribe_to_receive: "Inscrivez-vous pour être informé des futurs articles :"
+  too_many_signups: "Trop d'inscriptions, veuillez réessayer bientôt."
+  wait: "Veuillez patienter..."
+no_news: Pas de nouvelles pour le moment...
+pagination:
+  newer: Récentes
+  older: Anciennes
+  page: page
+post:
+  created_in: Créé en
+  created_by: par
+  last_updated: dernière mise à jour le
+references: Références
+related_posts:
+  description: "Voici quelques articles liés que vous pourriez aimer lire :"
+  title: Vous avez aimé lire cet article ?
+search:
+  dark_theme:
+    description: Change le thème du site en sombre
+    title: Passer au thème sombre
+  dropdown: Autres options
+  email: Envoyer un email
+  footer:
+    close: pour fermer
+    navigate: pour naviguer
+    parent: revenir d'un niveau
+    select: pour sélectionner
+  languages: Langues
+  light_theme:
+    description: Change le thème du site en clair
+    title: Passer au thème clair
+  navigation: Menu de navigation
+  news: Novidades
+  placeholder: Tapez pour commencer la recherche
+  posts: Articles
+  projects: Projets
+  socials: Réseaux sociaux
+  system_theme:
+    description: Change le thème du site en fonction des paramètres du système
+    title: Utiliser le thème par défaut du système
+  theme: Thème
+selected_publications: publications sélectionnées
+site_description: Un thème simple pour les universitaires. Basé sur le design de [*folio](https://github.com/bogoli/-folio).
