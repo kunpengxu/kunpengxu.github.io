@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p>Kunpeng Xu (徐鲲鹏)</p>
     <p>AI Researcher</p>
-    <p>PhD Candidate @ UdeS</p>
+    <p>PhD  @ UdeS (GPA:4.3/4.3)</p>
     <p>Email:kunpeng.xu@usherbrooke.ca<p>
 
 news: true # includes a list of news items

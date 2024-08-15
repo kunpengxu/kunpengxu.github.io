@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p>Kunpeng Xu (徐鲲鹏)</p>
     <p>Chercheur en IA</p>
-    <p>Doctorant @ UdeS</p>
+    <p>Doctorant @ UdeS (GPA:4.3/4.3)</p>
     <p>Courriel:kunpeng.xu@usherbrooke.ca<p>
 
 news: true # includes a list of news items
