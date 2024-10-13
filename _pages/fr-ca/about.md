@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: à propos
 permalink: /
-subtitle: Département d'informatique, Université de Sherbrooke, Canada
+subtitle: Département d'informatique, Université de Sherbrooke, Canada <br> École d’informatique, Université McGill, Canada
 
 profile:
   align: right
@@ -28,4 +28,6 @@ Mes intérêts de recherche incluent l'analyse des séries temporelles, l'appren
 
 En plus de mes travaux de doctorat, j'ai passé une année en tant que chercheur invité dans un institut de recherche sur la conduite autonome (UISEE), où je me suis concentré sur l'apprentissage par renforcement. Actuellement, nous collaborons avec une entreprise financière canadienne (Laplace Insights) pour explorer les changements de régime dans les séries temporelles des marchés financiers. En dehors de mes recherches, j'apprends le français pour mieux m'intégrer dans la communauté locale.
 
-<a href='#'>Mise à jour</a>. Je vais bientôt obtenir mon diplôme et je suis à la recherche de postes postdoctoraux ou à temps plein dans le domaine de l'apprentissage de la représentation/l'explicabilité de l'IA pour les séries temporelles et, plus généralement, en apprentissage automatique, avec une application pratique en vue.
+<a href='#'>Mise à jour</a>. Je vais commencer une bourse postdoctorale à l’École d’informatique de l’Université McGill. Mes recherches porteront sur l’apprentissage de représentation et l’IA explicable (XAI) pour les données de santé, ainsi que sur des domaines plus larges de l’apprentissage automatique, avec un fort accent sur les applications pratiques.
+
+[//]: # (Je vais bientôt obtenir mon diplôme et je suis à la recherche de postes postdoctoraux ou à temps plein dans le domaine de l'apprentissage de la représentation/l'explicabilité de l'IA pour les séries temporelles et, plus généralement, en apprentissage automatique, avec une application pratique en vue.)
