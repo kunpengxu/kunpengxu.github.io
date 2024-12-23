@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Oral presentation about our work "DRNet: A Decision-Making Method for Autonomous Lane Changing with Deep Reinforcement Learning" at <span style="color:#b509ac">Canadian AI 2024</span> in Guelph
+Oral presentation about our work "DRNet: A Decision-Making Method for Autonomous Lane Changing with Deep Reinforcement Learning" at ***<span style="color:#b509ac"><u>Canadian AI 2024</u></span>***  in Guelph

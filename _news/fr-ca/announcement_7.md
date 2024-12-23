@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Un article est accepté par <span style="color:#b509ac">NeurIPS 2024 TSALM </span>
+Un article est accepté par ***<span style="color:#b509ac"><u>NeurIPS 2024 TSALM</u> !</span>*** 
 

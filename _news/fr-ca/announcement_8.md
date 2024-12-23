@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Un article est accepté par <span style="color:#b509ac">AAAI 2024 </span>
+Un article est accepté par ***<span style="color:#b509ac"><u>AAAI 2025</u> !</span>*** 
 

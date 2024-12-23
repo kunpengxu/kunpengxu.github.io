@@ -5,4 +5,4 @@ inline: true
 related_posts: True
 ---
 
-Président de session pour la "Session Classification & Clustering" à <span style="color:#b509ac">PAKDD2024</span> à Taipei :sparkles: :smile:
+**<span style="color:#b509ac">Président de session</span>** pour la "Session Classification & Clustering" à ***<span style="color:#b509ac"><u>PAKDD 2024</u></span>*** à Taipei :sparkles: :smile:

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Oral presentation about our work "Kernel Representation Learning with Dynamic Regime Discovery for Time Series Forecasting" at <span style="color:#b509ac">PAKDD2024</span> in Taipei
+Oral presentation about our work "Kernel Representation Learning with Dynamic Regime Discovery for Time Series Forecasting" at ***<span style="color:#b509ac"><u>PAKDD 2024</u></span>***  in Taipei

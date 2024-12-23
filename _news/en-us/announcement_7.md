@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by <span style="color:#b509ac">NeurIPS 2024 TSALM </span>
+One paper is accepted by ***<span style="color:#b509ac"><u>NeurIPS 2024 TSALM</u> !</span>*** 

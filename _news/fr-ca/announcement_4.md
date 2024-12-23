@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Présentation orale de notre travail "RHINE: A Regime-Switching Model with Nonlinear Representation for Discovering and Forecasting Regimes in Financial Markets" à <span style="color:#b509ac">SIAM SDM2024</span> à Houston, États-Unis
+Présentation orale de notre travail "RHINE: A Regime-Switching Model with Nonlinear Representation for Discovering and Forecasting Regimes in Financial Markets" à ***<span style="color:#b509ac"><u>SIAM SDM 2024</u></span>*** à Houston, États-Unis

@@ -5,4 +5,4 @@ inline: true
 related_posts: True
 ---
 
-Serve as Session chair for "Classification & Clustering Session" at <span style="color:#b509ac">PAKDD2024</span> in Taipei :sparkles: :smile:
+Will serve as a **<span style="color:#b509ac">Session Chair</span>**  for "Classification & Clustering Session" at ***<span style="color:#b509ac"><u>PAKDD 2024</u></span>***  in Taipei :sparkles: :smile:
