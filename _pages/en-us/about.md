@@ -29,6 +29,6 @@ My research interests include time series analysis, kernel learning, and self-re
 In addition to my PhD work, I spent a year as a visiting scholar at an autonomous driving research institute (UISEE), where I focused on reinforcement learning. Currently, we are collaborating with a Canada Financial Company (Laplace Insights) to explore Regime-switch in financial time series.
 Outside of my research, I am learning French to better integrate into the local community. 
 
-<a href='#'>Update</a>. I will be starting postdoc fellowship at School of Computer Science, McGill University, focusing on representation learning, explainable AI (XAI) for Healthcare data, along with broader areas of machine learning, with a strong emphasis on practical applications.
+**<a href='#'>Update.</a>** I will be starting **<span style="color:#b509ac">postdoc fellow at School of Computer Science, McGill University</span>**, focusing on representation learning, explainable AI (XAI) for Healthcare data, along with broader areas of machine learning, with a strong emphasis on practical applications.
 
 [//]: # (I will be graduating soon and I am looking for postdoc/full time research positions in representation learning/XAI of time series and more broadly in machine learning, motivated by a practical application.)

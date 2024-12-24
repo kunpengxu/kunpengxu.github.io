@@ -15,7 +15,7 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-*<span style="color:#b509ac">Under review</span> (not listed in the publications below): 1 paper submitted to IEEE Transactions on Neural Networks and Learning Systems, 1 paper submitted to AAAI 2025, 1 paper submitted to ICLR 2025, 1 paper submitted Pattern Recognition.*
+*<span style="color:#b509ac">Under review</span> (not listed in the publications below): 1 paper submitted to IEEE Transactions on Neural Networks and Learning Systems, 1 paper submitted to AAAI 2025, 1 paper submitted to ICLR 2025, 1 paper submitted Pattern Recognition, 1 paper submitted to IEEE Transactions on Artificial Intelligence.*
 <div class="publications">
 
 {% bibliography %}
