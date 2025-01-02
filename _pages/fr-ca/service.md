@@ -18,7 +18,7 @@ nav_order: 4
 - **The Conference on Neural Information Processing Systems (NeurIPS)**: 2023, 2024
 - **The Thirteenth International Conference on Learning Representations (ICLR)**: 2024, 2025
 - **The ACM SIGKDD Conference of Knowledge Discovery and Data Mining (KDD)**: 2023, 2024, 2025
-- **The International Joint Conference on Artificial Intelligence (IJCAI)**: 2022, 2023
+- **The International Joint Conference on Artificial Intelligence (IJCAI)**: 2022, 2023, 2025
 - **The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)**: 2023, 2024, 2025
 - **The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)**: 2022
 
