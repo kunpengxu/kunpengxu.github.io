@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Glad to be invited by <a href='https://www.cs.mcgill.ca/~yueli/'>**Prof. Yue Li**</a> to give a talk at ***<span style="color:#b509ac"><u>School of Computer Science, McGill University</u></span>***  
+Glad to be invited by **<a href='https://www.cs.mcgill.ca/~yueli/'>Prof. Yue Li</a>** to give a talk at ***<span style="color:#b509ac"><u>School of Computer Science, McGill University</u></span>***  
