@@ -24,6 +24,9 @@ nav_order: 4
 
 
 ### Relecteurs pour les revues
+- **IEEE Transactions on Neural Networks and Learning Systems**
+- **IEEE Transactions on Knowledge and Data Engineering**
+- **IEEE Transactions on Computational Social Systems**
 - **Pattern Recognition**
 - **Pattern Recognition Letters**
 - **Neurocomputing**
@@ -31,7 +34,6 @@ nav_order: 4
 - **Expert Systems with Applications**
 - **IEEE Access**
 - **IEEE Internet of Things**
-- **IEEE Transactions on Neural Networks and Learning Systems**
 - **Knowledge-based Systems**
 - **International Journal of Forecasting**
 - **Journal of Hydrology**
