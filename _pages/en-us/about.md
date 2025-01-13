@@ -10,7 +10,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Kunpeng Xu (徐鲲鹏)</p>
+    <p>Kunpeng (Chris) Xu (徐鲲鹏)</p>
     <p>AI Researcher</p>
     <p>PhD  @ UdeS (GPA:4.3/4.3)</p>
     <p>Email:kunpeng.xu@usherbrooke.ca<p>
@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 
 
-Hi! I’m Kunpeng, a PhD student of the *ProspectUs-Lab* at UdeS since 2021, advised by <a href='https://www.usherbrooke.ca/recherche/fr/specialistes/details/shengrui.wang'>Prof. Shengrui Wang</a>. My academic journey is driven by a deep appreciation for mathematics and its elegant structures, which fuel my passion for research. I am particularly fascinated by theoretical derivations and the beauty of mathematical.
+Hi! I’m Kunpeng (Chris), a PhD student of the *ProspectUs-Lab* at UdeS since 2021, advised by <a href='https://www.usherbrooke.ca/recherche/fr/specialistes/details/shengrui.wang'>Prof. Shengrui Wang</a>. My academic journey is driven by a deep appreciation for mathematics and its elegant structures, which fuel my passion for research. I am particularly fascinated by theoretical derivations and the beauty of mathematical.
 
 My research interests include time series analysis, kernel learning, and self-representation learning. I focus on forecasting, pattern mining, concept drift, and interpretability in time series; explore the theoretical connections between data-driven kernel learning and transformers; and investigate subspace clustering and its applications in AI. I am also interested in AI4Science, particularly in exploring regime shifts in atmospheric and oceanic systems within environmental ecology, as well as phase transitions in physics.
 
