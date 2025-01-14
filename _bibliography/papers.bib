@@ -1,10 +1,32 @@
 ---
 ---
 
-@article{xu2024kan,
-  title={Are KAN Effective for Identifying and Tracking Concept Drift in Time Series?},
+@article{xu2025Towards,
+  title={Towards Robust Nonlinear Subspace Clustering: A Kernel Learning Approach},
   author={Xu, Kunpeng and Chen, Lifei and Wang, Shengrui},
-  journal={arXiv preprint arXiv:2410.10041},
+  journal={arXiv preprint arXiv:2501.06368},
+  year={2025},
+  preview={TAI_kernel.png},
+  abstract={Kernel-based subspace clustering, which addresses the nonlinear structures in data, is an evolving area of research. Despite noteworthy progressions, prevailing methodologies predominantly grapple with limitations relating to (i) the influence of predefined kernels on model performance; (ii) the difficulty of preserving the original manifold structures in the nonlinear space; (iii) the dependency of spectral-type strategies on the ideal block diagonal structure of the affinity matrix. This paper presents DKLM, a novel paradigm for kernel-induced nonlinear subspace clustering. DKLM provides a data-driven approach that directly learns the kernel from the data's self-representation, ensuring adaptive weighting and satisfying the multiplicative triangle inequality constraint, which enhances the robustness of the learned kernel. By leveraging this learned kernel, DKLM preserves the local manifold structure of data in a nonlinear space while promoting the formation of an optimal block-diagonal affinity matrix. A thorough theoretical examination of DKLM reveals its relationship with existing clustering paradigms. Comprehensive experiments on synthetic and real-world datasets demonstrate the effectiveness of the proposed method.},
+  pdf={https://arxiv.org/abs/2501.06368},
+  bibtex_show={true}
+}
+
+@article{xu2025drift2matrix,
+  title={Drift2Matrix: Kernel-Induced Self Representation for Concept Drift Adaptation in Co-evolving Time Series},
+  author={Xu, Kunpeng and Chen, Lifei and Wang, Shengrui},
+  journal={arXiv preprint arXiv:2501.01480},
+  year={2025},
+  preview={Drift2matrix.png},
+  abstract={In the realm of time series analysis, tackling the phenomenon of concept drift poses a significant challenge. Concept drift -- characterized by the evolving statistical properties of time series data, affects the reliability and accuracy of conventional analysis models. This is particularly evident in co-evolving scenarios where interactions among variables are crucial. This paper presents Drift2Matrix, a novel framework that leverages kernel-induced self-representation for adaptive responses to concept drift in time series. Drift2Matrix employs a kernel-based learning mechanism to generate a representation matrix, encapsulating the inherent dynamics of co-evolving time series. This matrix serves as a key tool for identification and adaptation to concept drift by observing its temporal variations. Furthermore, Drift2Matrix effectively identifies prevailing patterns and offers insights into emerging trends through pattern evolution analysis. Our empirical evaluation of Drift2Matrix across various datasets demonstrates its effectiveness in handling the complexities of concept drift. This approach introduces a novel perspective in the theoretical domain of co-evolving time series analysis, enhancing adaptability and accuracy in the face of dynamic data environments.},
+  pdf={https://www.arxiv.org/abs/2501.01480},
+  bibtex_show={true}
+}
+
+@inproceedings{xu2024kan4drift,
+  title={KAN4Drift: Are KAN Effective for Identifying and Tracking Concept Drift in Time Series?},
+  author={Xu, Kunpeng and Chen, Lifei and Wang, Shengrui},
+  booktitle={NeurIPS Workshop on Time Series in the Age of Large Models},
   year={2024},
   preview={WormKan.png},
   abstract={Dynamic concepts in time series are crucial for understanding complex systems such as financial markets, healthcare, and online activity logs. These concepts help reveal structures and behaviors in sequential data for better decision-making and forecasting. Existing models struggle with detecting and tracking concept drift due to limitations in interpretability and adaptability. This paper introduces Kolmogorov-Arnold Networks (KAN) into time series and proposes WormKAN, a KAN-based auto-encoder to address concept drift in co-evolving time series. WormKAN integrates the KAN-SR module, in which the encoder, decoder, and self-representation layer are built on KAN, along with a temporal constraint to capture concept transitions. These transitions, akin to passing through a "wormhole", are identified by abrupt changes in the latent space. Experiments show that KAN and KAN-based models (WormKAN) effectively segment time series into meaningful concepts, enhancing the identification and tracking of concept drifts.},
