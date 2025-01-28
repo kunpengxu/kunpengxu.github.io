@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: Department of Computer Science, University of Sherbrooke, Canada <br> School of Computer Science, McGill University, Canada
+subtitle: School of Computer Science, McGill University, Canada <br> Department of Computer Science, University of Sherbrooke, Canada 
 
 profile:
   align: right

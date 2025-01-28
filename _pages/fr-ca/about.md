@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: à propos
 permalink: /
-subtitle: Département d'informatique, Université de Sherbrooke, Canada <br> École d’informatique, Université McGill, Canada
+subtitle: École d’informatique, Université McGill, Canada <br> Département d'informatique, Université de Sherbrooke, Canada
 
 profile:
   align: right
