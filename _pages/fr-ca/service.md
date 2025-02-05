@@ -24,17 +24,17 @@ nav_order: 4
 
 
 ### Relecteurs pour les revues
-- **IEEE Transactions on Neural Networks and Learning Systems**
-- **IEEE Transactions on Knowledge and Data Engineering**
-- **IEEE Transactions on Computational Social Systems**
-- **Pattern Recognition**
-- **Pattern Recognition Letters**
+- **IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)**
+- **IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE)**
+- **IEEE Transactions on Computational Social Systems (IEEE TCSS)**
+- **Pattern Recognition (PR)**
+- **Pattern Recognition Letters (PRL)**
 - **Neurocomputing**
 - **Information Sciences**
-- **Expert Systems with Applications**
+- **Expert Systems with Applications (ESWA)**
 - **IEEE Access**
-- **IEEE Internet of Things**
-- **Knowledge-based Systems**
+- **IEEE Internet of Things (IEEE IoT)**
+- **Knowledge-based Systems (KBS)**
 - **International Journal of Forecasting**
 - **Journal of Hydrology**
 - **Applied Soft Computing**
