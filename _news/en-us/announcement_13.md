@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by ***<span style="color:#b509ac"><u>IEEE Transactions on artificial intelligence (TAI) </u> !</span>*** 
+One paper is accepted by ***<span style="color:#b509ac"><u>IEEE Transactions on Artificial Intelligence (TAI) </u> !</span>*** 
