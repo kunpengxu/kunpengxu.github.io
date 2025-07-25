@@ -11,7 +11,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Kunpeng (Chris) Xu (徐鲲鹏)</p>
-    <p>AI Researcher</p>
+    <p>AI Researcher</p><br>
     <p>Postdoc @ McGill</p>
     <p>PhD  @ UdeS (GPA:4.3/4.3)</p>
     <p>Email:kunpeng.xu@usherbrooke.ca</p>
