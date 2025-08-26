@@ -14,7 +14,7 @@ profile:
     <p>Chercheur en IA</p>
     <p>Postdoc @ McGill</p>
     <p>Doctorant @ UdeS (GPA:4.3/4.3)</p>
-    <p>Courriel:kunpeng.xu@usherbrooke.ca</p>
+    <p>Courriel:kunpeng.xu@mail.mcgill.ca</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

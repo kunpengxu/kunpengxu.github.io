@@ -14,7 +14,7 @@ profile:
     <p>AI Researcher</p><br>
     <p>Postdoc @ McGill</p>
     <p>PhD  @ UdeS (GPA:4.3/4.3)</p>
-    <p>Email:kunpeng.xu@usherbrooke.ca</p>
+    <p>Email:kunpeng.xu@mail.mcgill.ca</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
