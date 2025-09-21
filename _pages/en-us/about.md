@@ -4,6 +4,7 @@ layout: about
 title: about
 permalink: /
 subtitle: School of Computer Science, McGill University, Montreal, Canada 
+subtitle: Mila - Quebec AI Institute, Montreal, Canada
 
 profile:
   align: right
@@ -23,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 
 
-Hi! I’m Kunpeng (Chris), a <span style="color:#b509ac">Postdoctoral Fellow</span> at *Li-Lab*, McGill University, where I work with <a href='https://www.cs.mcgill.ca/~yueli/'>Prof. Yue Li</a>. I obtained my Ph.D. degree at the *ProspectUs-Lab*, UdeS, where I worked with <a href='https://www.usherbrooke.ca/recherche/fr/specialistes/details/shengrui.wang'>Prof. Shengrui Wang</a>. My academic journey is driven by a deep appreciation for mathematics and its elegant structures, which fuel my passion for research. I am particularly fascinated by theoretical derivations and the beauty of mathematical.
+Hi! I’m Kunpeng (Chris), a <span style="color:#b509ac">Postdoctoral Fellow</span> at *Li-Lab*, McGill University, where I work with <a href='https://www.cs.mcgill.ca/~yueli/'>Prof. Yue Li</a> and <a href='https://www.math.mcgill.ca/yyang/index.html'>Prof. Archer Y. Yang</a>. I obtained my Ph.D. degree at the *ProspectUs-Lab*, UdeS, where I worked with <a href='https://www.usherbrooke.ca/recherche/fr/specialistes/details/shengrui.wang'>Prof. Shengrui Wang</a>. My academic journey is driven by a deep appreciation for mathematics and its elegant structures, which fuel my passion for research. I am particularly fascinated by theoretical derivations and the beauty of mathematical.
 
 My research interests include time series analysis, kernel learning, and self-representation learning, single-cell multi-omics, and gene regulatory network inference. I focus on forecasting, pattern mining, concept drift, and interpretability in time series; explore the theoretical connections between data-driven kernel learning and transformers; and investigate subspace clustering and its applications in AI. I am also interested in AI4Science, particularly in exploring regime shifts in atmospheric and oceanic systems within environmental ecology, as well as phase transitions in physics.
 

@@ -4,7 +4,7 @@ layout: about
 title: à propos
 permalink: /
 subtitle: École d’informatique, Université McGill, Montréal, Canada 
-
+subtitle: Mila - Quebec AI Institute, Montreal, Canada
 profile:
   align: right
   image: prof_pic.jpg
@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 
 
 
-Bonjour ! Je m'appelle Kunpeng (Chris), un <span style="color:#b509ac">chercheur postdoctoral</span> au *Li-Lab* de l'Université McGill, où je vais collaborer avec <a href='https://www.cs.mcgill.ca/~yueli/'>le Prof. Yue Li</a>. J’ai obtenu mon doctorat au *ProspectUs-Lab* de l'Université de Sherbrooke, où j’ai eu le privilège de travailler avec <a href='https://www.usherbrooke.ca/recherche/fr/specialistes/details/shengrui.wang'>le Prof. Shengrui Wang</a> depuis 2021. Mon parcours académique est motivé par une profonde appréciation des mathématiques et de leurs structures élégantes, qui alimentent ma passion pour la recherche. Je suis particulièrement fasciné par les dérivations théoriques et la beauté des concepts mathématiques.
+Bonjour ! Je m'appelle Kunpeng (Chris), un <span style="color:#b509ac">chercheur postdoctoral</span> au *Li-Lab* de l'Université McGill, où je vais collaborer avec <a href='https://www.cs.mcgill.ca/~yueli/'>le Prof. Yue Li</a> et <a href='https://www.math.mcgill.ca/yyang/index.html'>Prof. Archer Y. Yang</a>. J’ai obtenu mon doctorat au *ProspectUs-Lab* de l'Université de Sherbrooke, où j’ai eu le privilège de travailler avec <a href='https://www.usherbrooke.ca/recherche/fr/specialistes/details/shengrui.wang'>le Prof. Shengrui Wang</a> depuis 2021. Mon parcours académique est motivé par une profonde appréciation des mathématiques et de leurs structures élégantes, qui alimentent ma passion pour la recherche. Je suis particulièrement fasciné par les dérivations théoriques et la beauté des concepts mathématiques.
 
 Mes intérêts de recherche incluent l’analyse des séries temporelles, l’apprentissage par noyau, l’apprentissage de la représentation autonome, la multi-omique unicellulaire et l’inférence des réseaux de régulation génique. Je me concentre sur la prévision, l’extraction de motifs, la dérive conceptuelle et l’interprétabilité des séries temporelles ; j’explore les liens théoriques entre l’apprentissage par noyau piloté par les données et les transformateurs ; et j’examine le regroupement par sous-espace et ses applications en intelligence artificielle. Je m’intéresse également à l’IA pour les sciences (AI4Science), en particulier à l’exploration des changements de régime dans les systèmes atmosphériques et océaniques en écologie environnementale, ainsi qu’aux transitions de phase en physique.
 
