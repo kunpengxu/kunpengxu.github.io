@@ -3,9 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: |
-  School of Computer Science, McGill University, Montreal, Canada  
-  Mila - Quebec AI Institute, Montreal, Canada
+subtitle: "School of Computer Science, McGill University, Montreal, Canada <br> Mila - Quebec AI Institute, Montreal, Canada"
 
 profile:
   align: right
