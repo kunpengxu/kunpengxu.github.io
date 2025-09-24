@@ -3,8 +3,8 @@ page_id: about
 layout: about
 title: à propos
 permalink: /
-subtitle: École d’informatique, Université McGill, Montréal, Canada 
-subtitle: Mila - Quebec AI Institute, Montreal, Canada
+subtitle: École d’informatique, Université McGill, Montréal, Canada <br>
+Mila - Quebec AI Institute, Montreal, Canada
 profile:
   align: right
   image: prof_pic.jpg
