@@ -1,0 +1,231 @@
+.misc-carousel {
+  margin-bottom: 3rem;
+}
+
+.misc-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0 0 1rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--global-text-color);
+  background: color-mix(in srgb, var(--global-card-bg-color) 88%, transparent);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.misc-back:hover {
+  text-decoration: none;
+  color: var(--global-theme-color);
+}
+
+.misc-carousel__viewport {
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: visible;
+  padding: 0.5rem 0;
+}
+
+.misc-carousel__track {
+  position: relative;
+  width: min(56rem, 100%);
+  height: clamp(14rem, 40vw, 28rem);
+  perspective: 1200px;
+}
+
+.misc-carousel__slide {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0;
+  width: clamp(12rem, 52%, 30rem);
+  text-align: center;
+  transform:
+    translateX(calc(-50% + var(--x, 0px)))
+    translateZ(calc((1 - var(--opacity, 1)) * -220px))
+    scale(var(--scale, 1));
+  opacity: var(--opacity, 1);
+  filter: blur(var(--blur, 0px));
+  transition:
+    transform 420ms ease,
+    opacity 420ms ease,
+    filter 420ms ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.misc-carousel__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: color-mix(in srgb, var(--global-card-bg-color) 88%, transparent);
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.14);
+}
+
+.misc-carousel__caption {
+  margin-top: 0.85rem;
+  font-size: 1rem;
+  color: var(--global-text-color);
+  opacity: var(--opacity, 1);
+}
+
+.misc-carousel__slide.is-active {
+  filter: none;
+  cursor: default;
+}
+
+.misc-carousel__slide.is-hidden {
+  pointer-events: none;
+  opacity: 0;
+  filter: blur(6px);
+}
+
+.misc-carousel__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.8rem;
+  height: 2.8rem;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--global-text-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 60;
+}
+
+.misc-carousel__nav--prev {
+  left: 0.35rem;
+}
+
+.misc-carousel__nav--next {
+  right: 0.35rem;
+}
+
+.misc-carousel__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.misc-carousel__dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--global-text-color) 20%, transparent);
+  cursor: pointer;
+}
+
+.misc-carousel__dot.is-active {
+  background: var(--global-theme-color);
+}
+
+.misc-page {
+  display: grid;
+  gap: 3rem;
+}
+
+.misc-section__header {
+  margin-bottom: 1.25rem;
+}
+
+.misc-section__title {
+  margin-bottom: 0.4rem;
+}
+
+.misc-section__description {
+  margin: 0;
+  color: var(--global-text-color-light);
+  max-width: 48rem;
+}
+
+.misc-gallery {
+  columns: 3 18rem;
+  column-gap: 1.25rem;
+}
+
+.misc-gallery__item {
+  break-inside: avoid;
+  margin: 0 0 1.25rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  background: color-mix(in srgb, var(--global-card-bg-color) 88%, transparent);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.misc-gallery__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.misc-gallery__caption {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+}
+
+.misc-gallery__empty {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--global-theme-color);
+  background: color-mix(in srgb, var(--global-theme-color) 10%, transparent);
+}
+
+@media (max-width: 768px) {
+  .misc-back {
+    margin-bottom: 0.75rem;
+  }
+
+  .misc-carousel {
+    margin-bottom: 2.25rem;
+  }
+
+  .misc-carousel__track {
+    height: clamp(12rem, 58vw, 20rem);
+  }
+
+  .misc-carousel__image {
+    aspect-ratio: 4 / 3;
+  }
+
+  .misc-carousel__nav {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .misc-page {
+    gap: 2.25rem;
+  }
+
+  .misc-gallery {
+    columns: 1;
+  }
+
+  .misc-gallery__item {
+    padding: 0.65rem;
+  }
+}
+
+@keyframes misc-carousel-fade {
+  from {
+    opacity: 0.35;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

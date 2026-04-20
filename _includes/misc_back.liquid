@@ -1,0 +1,16 @@
+{% assign back_label = include.label %}
+{% if back_label == nil %}
+  {% if site.active_lang == 'fr-ca' %}
+    {% assign back_label = 'Retour à divers' %}
+  {% else %}
+    {% assign back_label = 'Back to misc' %}
+  {% endif %}
+{% endif %}
+
+{% if site.active_lang == site.default_lang %}
+  {% assign back_href = '/misc/' | relative_url %}
+{% else %}
+  {% assign back_href = site.baseurl | append: '/' | append: site.active_lang | append: '/misc/' %}
+{% endif %}
+
+<a class="misc-back" href="{{ back_href }}">&#8249; {{ back_label }}</a>

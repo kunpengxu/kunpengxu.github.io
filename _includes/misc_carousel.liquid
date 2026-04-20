@@ -1,0 +1,45 @@
+{% assign carousel_files = site.static_files
+  | where_exp: "file", "file.path contains include.folder"
+  | where_exp: "file", "file.extname == '.png' or file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.webp' or file.extname == '.gif'"
+  | sort: "name" %}
+
+{% if carousel_files.size > 0 %}
+  {% assign carousel_id = include.id | default: include.title | slugify %}
+  <section class="misc-carousel" data-misc-carousel="{{ carousel_id }}" data-autoplay-ms="{{ include.autoplay_ms | default: 2500 }}">
+    <div class="misc-carousel__viewport">
+      <div class="misc-carousel__track" aria-live="polite">
+        {% for file in carousel_files %}
+          {% assign caption = file.basename | replace: "_", " " | replace: "-", " " %}
+          <figure class="misc-carousel__slide{% if forloop.first %} is-active{% endif %}" data-slide-index="{{ forloop.index0 }}">
+            <img
+              class="misc-carousel__image img-fluid rounded z-depth-1"
+              src="{{ file.path | relative_url }}"
+              alt="{{ caption }}"
+              loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+            >
+            <figcaption class="misc-carousel__caption">{{ caption }}</figcaption>
+          </figure>
+        {% endfor %}
+      </div>
+
+      {% if carousel_files.size > 1 %}
+        <button class="misc-carousel__nav misc-carousel__nav--prev" type="button" aria-label="Previous image">&#8249;</button>
+        <button class="misc-carousel__nav misc-carousel__nav--next" type="button" aria-label="Next image">&#8250;</button>
+      {% endif %}
+    </div>
+
+    {% if carousel_files.size > 1 %}
+      <div class="misc-carousel__dots" aria-label="Carousel pagination">
+        {% for file in carousel_files %}
+          {% assign caption = file.basename | replace: "_", " " | replace: "-", " " %}
+          <button
+            class="misc-carousel__dot{% if forloop.first %} is-active{% endif %}"
+            type="button"
+            data-dot-index="{{ forloop.index0 }}"
+            aria-label="Show {{ caption }}"
+          ></button>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </section>
+{% endif %}

@@ -1,0 +1,94 @@
+<script>
+  (() => {
+    const carousels = document.querySelectorAll("[data-misc-carousel]");
+    carousels.forEach((carousel) => {
+      if (carousel.dataset.bound === "true") return;
+      carousel.dataset.bound = "true";
+
+      const slides = Array.from(carousel.querySelectorAll(".misc-carousel__slide"));
+      const dots = Array.from(carousel.querySelectorAll(".misc-carousel__dot"));
+      const prev = carousel.querySelector(".misc-carousel__nav--prev");
+      const next = carousel.querySelector(".misc-carousel__nav--next");
+      const autoplayMs = Number(carousel.dataset.autoplayMs || 2500);
+      let current = 0;
+      let timer = null;
+
+      const getMaxPreview = () => {
+        const width = carousel.getBoundingClientRect().width;
+        if (width < 520) return 1;
+        if (width < 860) return 2;
+        return 3;
+      };
+
+      const render = (index) => {
+        current = (index + slides.length) % slides.length;
+        const maxPreview = getMaxPreview();
+        const viewportWidth = carousel.getBoundingClientRect().width;
+        const step = Math.max(140, Math.min(240, Math.round(viewportWidth / 4.8)));
+
+        slides.forEach((slide, slideIndex) => {
+          const offset = slideIndex - current;
+          const absOffset = Math.abs(offset);
+          const isActive = absOffset === 0;
+          const isHidden = absOffset > maxPreview;
+
+          slide.classList.toggle("is-active", isActive);
+          slide.classList.toggle("is-hidden", isHidden);
+          slide.setAttribute("aria-hidden", isHidden ? "true" : "false");
+
+          const x = offset * step;
+          const scale = Math.max(0.54, isActive ? 1 : 0.82 - absOffset * 0.1);
+          const opacity = Math.max(0.22, 1 - absOffset * 0.22);
+          const blur = isActive ? 0 : Math.min(2.5, absOffset * 0.85);
+
+          slide.style.setProperty("--x", `${x}px`);
+          slide.style.setProperty("--scale", `${scale}`);
+          slide.style.setProperty("--opacity", `${opacity}`);
+          slide.style.setProperty("--blur", `${blur}px`);
+          slide.style.zIndex = String(20 - absOffset);
+        });
+
+        dots.forEach((dot, dotIndex) => {
+          dot.classList.toggle("is-active", dotIndex === current);
+        });
+      };
+
+      const start = () => {
+        if (slides.length < 2) return;
+        clearInterval(timer);
+        timer = window.setInterval(() => render(current + 1), autoplayMs);
+      };
+
+      prev?.addEventListener("click", () => {
+        render(current - 1);
+        start();
+      });
+
+      next?.addEventListener("click", () => {
+        render(current + 1);
+        start();
+      });
+
+      slides.forEach((slide, index) => {
+        slide.addEventListener("click", () => {
+          render(index);
+          start();
+        });
+      });
+
+      dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+          render(index);
+          start();
+        });
+      });
+
+      carousel.addEventListener("mouseenter", () => clearInterval(timer));
+      carousel.addEventListener("mouseleave", start);
+      window.addEventListener("resize", () => render(current), { passive: true });
+
+      render(0);
+      start();
+    });
+  })();
+</script>
