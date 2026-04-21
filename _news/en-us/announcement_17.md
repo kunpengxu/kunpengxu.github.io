@@ -6,4 +6,4 @@ related_posts: false
 published: false
 ---
 
-One paper is accepted by ***<span style="color:#b509ac"><u>WWW 2026 </u> !</span>*** Congrats to my collaborators.:sparkles: 🎉
+One paper is accepted by ***<span style="color:#b509ac"><u>The ACM Web Conference 2026 (WWW 2026)</u> !</span>*** Congrats to my collaborators.:sparkles: 🎉

@@ -14,9 +14,11 @@ giscus_comments: false
 {% include misc_carousel.liquid
   id="food-carousel-fr"
   title="Nourriture"
+  key="food"
   folder="/assets/img/misc/food/" %}
 
 {% include misc_gallery.liquid
   title="Nourriture"
+  key="food"
   folder="/assets/img/misc/food/" %}
 {% include misc_carousel_script.liquid %}

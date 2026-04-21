@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by ***<span style="color:#b509ac"><u>AI4TS Workshop@AAAI 2025</u> !</span>*** 
+One paper is accepted by ***<span style="color:#b509ac"><u>AI for Time Series (AI4TS) Workshop at the 39th AAAI Conference on Artificial Intelligence (AAAI 2025)</u> !</span>*** 

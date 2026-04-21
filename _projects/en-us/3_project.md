@@ -14,9 +14,11 @@ related_publications: false
 {% include misc_carousel.liquid
   id="photography-carousel"
   title="Photography"
+  key="photography"
   folder="/assets/img/misc/photography/" %}
 
 {% include misc_gallery.liquid
   title="Photography"
+  key="photography"
   folder="/assets/img/misc/photography/" %}
 {% include misc_carousel_script.liquid %}

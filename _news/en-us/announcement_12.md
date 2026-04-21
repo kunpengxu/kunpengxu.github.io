@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by ***<span style="color:#b509ac"><u>IJCAI 2025</u> !</span>*** 
+One paper is accepted by ***<span style="color:#b509ac"><u>34th International Joint Conference on Artificial Intelligence (IJCAI 2025)</u> !</span>*** 

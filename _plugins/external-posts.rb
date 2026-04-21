@@ -10,6 +10,9 @@ module ExternalPosts
     priority :high
 
     def generate(site)
+      # Allow builds without network access (e.g. local CI or restricted environments).
+      return if ENV['JEKYLL_OFFLINE'] == '1'
+
       if site.config['external_sources'] != nil
         site.config['external_sources'].each do |src|
           puts "Fetching external posts from #{src['name']}:"
@@ -27,6 +30,8 @@ module ExternalPosts
       return if xml.nil?
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
+    rescue StandardError => e
+      warn "ExternalPosts: skipping RSS fetch (#{src['rss_url']}): #{e.class}: #{e.message}"
     end
 
     def process_entries(site, src, entries)
@@ -63,6 +68,8 @@ module ExternalPosts
         content[:published] = parse_published_date(post['published_date'])
         create_document(site, src['name'], post['url'], content)
       end
+    rescue StandardError => e
+      warn "ExternalPosts: skipping URL fetch: #{e.class}: #{e.message}"
     end
 
     def parse_published_date(published_date)
@@ -90,6 +97,9 @@ module ExternalPosts
         summary: description
         # Note: The published date is now added in the fetch_from_urls method.
       }
+    rescue StandardError => e
+      warn "ExternalPosts: failed to fetch #{url}: #{e.class}: #{e.message}"
+      { title: '', content: '', summary: '' }
     end
 
   end

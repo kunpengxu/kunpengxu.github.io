@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by ***<span style="color:#b509ac"><u>AAAI 2025</u> !</span>*** 
+One paper is accepted by ***<span style="color:#b509ac"><u>39th AAAI Conference on Artificial Intelligence (AAAI 2025)</u> !</span>*** 

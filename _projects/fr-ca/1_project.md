@@ -14,9 +14,11 @@ related_publications: false
 {% include misc_carousel.liquid
   id="sports-carousel-fr"
   title="Sports"
+  key="sports"
   folder="/assets/img/misc/sports/" %}
 
 {% include misc_gallery.liquid
   title="Sports"
+  key="sports"
   folder="/assets/img/misc/sports/" %}
 {% include misc_carousel_script.liquid %}
