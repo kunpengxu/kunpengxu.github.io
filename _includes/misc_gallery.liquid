@@ -1,7 +1,27 @@
-{% assign gallery_files = site.static_files
+{% assign candidate_files = site.static_files
   | where_exp: "file", "file.path contains include.folder"
   | where_exp: "file", "file.extname == '.png' or file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.webp' or file.extname == '.gif'"
   | sort: "name" %}
+
+{% assign gallery_files = "" | split: "" %}
+{% for file in candidate_files %}
+  {% assign last_part = file.basename | split: "-" | last %}
+  {% assign last_num = last_part | plus: 0 %}
+  {% assign last_num_str = last_num | append: "" %}
+
+  {%- comment -%}
+  If imagemagick responsive images are enabled, it generates files like `name-480.webp`.
+  We should ignore those derivatives to avoid duplicates in the gallery.
+  {%- endcomment -%}
+  {% assign is_imagemagick_derivative = false %}
+  {% if file.extname == '.webp' and site.imagemagick and site.imagemagick.enabled and last_num_str == last_part and site.imagemagick.widths contains last_num %}
+    {% assign is_imagemagick_derivative = true %}
+  {% endif %}
+
+  {% unless is_imagemagick_derivative %}
+    {% assign gallery_files = gallery_files | push: file %}
+  {% endunless %}
+{% endfor %}
 
 <section class="misc-section">
   <div class="misc-section__header">

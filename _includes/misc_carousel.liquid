@@ -1,7 +1,23 @@
-{% assign carousel_files = site.static_files
+{% assign candidate_files = site.static_files
   | where_exp: "file", "file.path contains include.folder"
   | where_exp: "file", "file.extname == '.png' or file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.webp' or file.extname == '.gif'"
   | sort: "name" %}
+
+{% assign carousel_files = "" | split: "" %}
+{% for file in candidate_files %}
+  {% assign last_part = file.basename | split: "-" | last %}
+  {% assign last_num = last_part | plus: 0 %}
+  {% assign last_num_str = last_num | append: "" %}
+
+  {% assign is_imagemagick_derivative = false %}
+  {% if file.extname == '.webp' and site.imagemagick and site.imagemagick.enabled and last_num_str == last_part and site.imagemagick.widths contains last_num %}
+    {% assign is_imagemagick_derivative = true %}
+  {% endif %}
+
+  {% unless is_imagemagick_derivative %}
+    {% assign carousel_files = carousel_files | push: file %}
+  {% endunless %}
+{% endfor %}
 
 {% if carousel_files.size > 0 %}
   {% assign carousel_id = include.id | default: include.title | slugify %}
