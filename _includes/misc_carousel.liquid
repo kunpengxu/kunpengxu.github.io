@@ -3,20 +3,71 @@
   | where_exp: "file", "file.extname == '.png' or file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.webp' or file.extname == '.gif'"
   | sort: "name" %}
 
+{% assign widths_desc = "" | split: "" %}
+{% assign widths_csv = "" %}
+{% if site.imagemagick and site.imagemagick.widths %}
+  {% assign widths_desc = site.imagemagick.widths | sort | reverse %}
+  {% assign widths_csv = "," | append: (site.imagemagick.widths | join: ",") | append: "," %}
+{% endif %}
+
 {% assign carousel_files = "" | split: "" %}
+{% assign selected_keys = "" | split: "" %}
+
 {% for file in candidate_files %}
   {% assign last_part = file.basename | split: "-" | last %}
   {% assign last_num = last_part | plus: 0 %}
   {% assign last_num_str = last_num | append: "" %}
-
-  {% assign is_imagemagick_derivative = false %}
-  {% if file.extname == '.webp' and site.imagemagick and site.imagemagick.enabled and last_num_str == last_part and site.imagemagick.widths contains last_num %}
-    {% assign is_imagemagick_derivative = true %}
+  {% assign is_derivative = false %}
+  {% assign width_marker = "," | append: last_part | append: "," %}
+  {% if file.extname == '.webp' and last_num_str == last_part and widths_csv != "" and widths_csv contains width_marker %}
+    {% assign is_derivative = true %}
   {% endif %}
 
-  {% unless is_imagemagick_derivative %}
-    {% assign carousel_files = carousel_files | push: file %}
+  {% unless is_derivative %}
+    {% assign key = file.basename %}
+    {% unless selected_keys contains key %}
+      {% assign selected_keys = selected_keys | push: key %}
+      {% assign carousel_files = carousel_files | push: file %}
+    {% endunless %}
   {% endunless %}
+{% endfor %}
+
+{% assign derivative_keys = "" | split: "" %}
+{% for file in candidate_files %}
+  {% assign last_part = file.basename | split: "-" | last %}
+  {% assign last_num = last_part | plus: 0 %}
+  {% assign last_num_str = last_num | append: "" %}
+  {% assign is_derivative = false %}
+  {% assign width_marker = "," | append: last_part | append: "," %}
+  {% if file.extname == '.webp' and last_num_str == last_part and widths_csv != "" and widths_csv contains width_marker %}
+    {% assign is_derivative = true %}
+  {% endif %}
+
+  {% if is_derivative %}
+    {% assign suffix_len = last_part | size | plus: 1 %}
+    {% assign key_len = file.basename | size | minus: suffix_len %}
+    {% assign key = file.basename | slice: 0, key_len %}
+    {% unless selected_keys contains key or derivative_keys contains key %}
+      {% assign derivative_keys = derivative_keys | push: key %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% for key in derivative_keys %}
+  {% assign found = false %}
+  {% for w in widths_desc %}
+    {% assign wanted = key | append: "-" | append: w %}
+    {% for file in candidate_files %}
+      {% if file.extname == '.webp' and file.basename == wanted %}
+        {% assign carousel_files = carousel_files | push: file %}
+        {% assign found = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if found %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
 
 {% if carousel_files.size > 0 %}
@@ -25,10 +76,20 @@
     <div class="misc-carousel__viewport">
       <div class="misc-carousel__track" aria-live="polite">
         {% for file in carousel_files %}
-          {% assign caption = file.basename | replace: "_", " " | replace: "-", " " %}
-          <figure class="misc-carousel__slide{% if forloop.first %} is-active{% endif %}" data-slide-index="{{ forloop.index0 }}">
-            <img
-              class="misc-carousel__image img-fluid rounded z-depth-1"
+        {% assign base_caption = file.basename %}
+        {% assign last_part = file.basename | split: "-" | last %}
+        {% assign last_num = last_part | plus: 0 %}
+        {% assign last_num_str = last_num | append: "" %}
+        {% assign width_marker = "," | append: last_part | append: "," %}
+        {% if file.extname == '.webp' and last_num_str == last_part and widths_csv != "" and widths_csv contains width_marker %}
+          {% assign suffix_len = last_part | size | plus: 1 %}
+          {% assign base_len = file.basename | size | minus: suffix_len %}
+          {% assign base_caption = file.basename | slice: 0, base_len %}
+        {% endif %}
+        {% assign caption = base_caption | replace: "_", " " | replace: "-", " " %}
+        <figure class="misc-carousel__slide{% if forloop.first %} is-active{% endif %}" data-slide-index="{{ forloop.index0 }}">
+          <img
+            class="misc-carousel__image img-fluid rounded z-depth-1"
               src="{{ file.path | relative_url }}"
               alt="{{ caption }}"
               loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
