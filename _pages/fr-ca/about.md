@@ -3,6 +3,7 @@ page_id: about
 layout: about
 title: à propos
 permalink: /
+description: "Je m'appelle Kunpeng (Chris), chercheur postdoctoral à Polytechnique Montréal. Mes intérêts de recherche incluent l'analyse des séries temporelles, l'apprentissage par noyau et l'apprentissage de la représentation autonome."
 subtitle: "Polytechnique Montréal, Montréal, Canada <br> Mila - Quebec AI Institute, Montreal, Canada"
 profile:
   align: right

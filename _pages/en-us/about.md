@@ -3,6 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
+description: "I'm Kunpeng (Chris), a Postdoctoral Fellow at Polytechnique Montréal. My research interests include time series analysis, kernel learning, and self-representation learning."
 subtitle: "Polytechnique Montréal, Montreal, Canada <br> Mila - Quebec AI Institute, Montreal, Canada"
 
 profile:
