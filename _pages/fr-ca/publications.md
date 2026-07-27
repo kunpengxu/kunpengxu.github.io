@@ -14,7 +14,7 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-***<span style="color:#b509ac">En cours d'examen</span>*** *(non listé dans les publications ci-dessous) : 1 article soumis à ICML 2025, 1 article soumis à Pattern Recognition, 1 article soumis à IEEE Transactions on Artificial Intelligence.*
+***<span style="color:#b509ac">En cours d'examen</span>*** *(non listé dans les publications ci-dessous) : 7 articles soumis à AAAI 2027, 2 articles soumis à NeurIPS 2026, 1 article soumis à ACM Computing Surveys, 1 article soumis à IEEE TNNLS, 1 article soumis à IEEE TKDE et 1 article soumis à IEEE TPAMI.*
 <div class="publications">
 
 {% bibliography %}

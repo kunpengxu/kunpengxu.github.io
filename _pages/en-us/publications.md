@@ -15,10 +15,9 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-***<span style="color:#b509ac">Under review</span>*** *(not listed in the publications below): 1 paper submitted to ICML 2025, 1 paper submitted Pattern Recognition, 1 paper submitted to IEEE Transactions on Artificial Intelligence.*
+***<span style="color:#b509ac">Under review</span>*** *(not listed in the publications below): 7 papers submitted to AAAI 2027, 2 papers submitted to NeurIPS 2026, 1 paper submitted to ACM Computing Surveys, 1 paper submitted to IEEE TNNLS, 1 paper submitted to IEEE TKDE, and 1 paper submitted to IEEE TPAMI.*
 <div class="publications">
 
 {% bibliography %}
 
 </div>
-
