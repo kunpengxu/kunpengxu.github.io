@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p>Kunpeng (Chris) Xu (徐鲲鹏)</p>
     <p>AI Researcher</p><br>
-    <p>Postdoc @ Polytechnique Montréal</p>
+    <p>Postdoc @ PolyMtl</p>
     <p>PhD  @ UdeS (GPA:4.3/4.3)</p>
     <p>Email:kunpeng.xu@ieee.org</p>
 
