@@ -109,7 +109,7 @@
 
           <!-- About -->
           <li class="nav-item ">
-            <a class="nav-link" href="/">about
+            <a class="nav-link" href="/">About
               
             </a>
           </li>
@@ -208,7 +208,7 @@
                 
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="/publications/">publications
+                  <a class="nav-link" href="/publications/">Publications
                     
                   </a>
                 </li>
@@ -222,7 +222,7 @@
                 
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="/Service/">service
+                  <a class="nav-link" href="/Service/">Service
                     
                   </a>
                 </li>
@@ -236,7 +236,19 @@
                 
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="/misc/">misc.
+                  <a class="nav-link" href="/talks/">Talks
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/awards/">Awards
                     
                   </a>
                 </li>
@@ -250,36 +262,15 @@
             
               
                 
-                
-                <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/misc/">Misc.
                     
                   </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    
-                      
-                        <a class="dropdown-item " href="/publications/">publications</a>
-                      
-                    
-                      
-                        <div class="dropdown-divider"></div>
-                      
-                    
-                      
-                        <a class="dropdown-item " href="/service/">service</a>
-                      
-                    
-                      
-                        <div class="dropdown-divider"></div>
-                      
-                    
-                      
-                        <a class="dropdown-item " href="/misc/">misc.</a>
-                      
-                    
-                  </div>
                 </li>
               
+            
+          
             
           
           
@@ -348,6 +339,7 @@
     </h1>
     <p>Postdoctoral Fellow</p>
     <p>Polytechnique Montréal</p>
+    <p>Mila - Quebec Artificial Intelligence Institute</p>
   </div>
 
   <div class="profile-sidebar__links">
@@ -458,7 +450,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="95330099-2f6b-4c34-bd60-902fa5f80f64" data-name="log">
+<ul id="log" class="tab" data-tab="ac20d7f9-44bd-4957-89fe-0d7299a924cf" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -473,7 +465,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="95330099-2f6b-4c34-bd60-902fa5f80f64" data-name="log">
+<ul class="tab-content" id="ac20d7f9-44bd-4957-89fe-0d7299a924cf" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -497,7 +489,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="d7675787-cf2c-4bff-b19c-7324b9a81113" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="84edb706-9a0f-47dc-a022-64f2f4dd4e80" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -508,7 +500,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="d7675787-cf2c-4bff-b19c-7324b9a81113" data-name="data-struct">
+<ul class="tab-content" id="84edb706-9a0f-47dc-a022-64f2f4dd4e80" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -530,7 +522,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="0b16bb1b-5cea-4fc1-8d52-c456184b6d29" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="34589fb5-15ff-4f14-9701-64f1db43ec72" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -545,7 +537,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="0b16bb1b-5cea-4fc1-8d52-c456184b6d29" data-name="something-else">
+<ul class="tab-content" id="34589fb5-15ff-4f14-9701-64f1db43ec72" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
@@ -893,54 +885,47 @@ Content 2
     // add the home and posts menu items
     ninja.data = [{
         id: "nav-about",
-        title: "about",
+        title: "About",
         section: "Navigation menu",
         handler: () => {
           window.location.href = "/";
         },
       },{id: "nav-publications",
-              title: "publications",
+              title: "Publications",
               description: "publications by categories in reversed chronological order.",
               section: "Navigation menu",
               handler: () => {
                 window.location.href = "/publications/";
               },
             },{id: "nav-service",
-              title: "service",
+              title: "Service",
               description: "",
               section: "Navigation menu",
               handler: () => {
                 window.location.href = "/Service/";
               },
+            },{id: "nav-talks",
+              title: "Talks",
+              description: "",
+              section: "Navigation menu",
+              handler: () => {
+                window.location.href = "/talks/";
+              },
+            },{id: "nav-awards",
+              title: "Awards",
+              description: "",
+              section: "Navigation menu",
+              handler: () => {
+                window.location.href = "/awards/";
+              },
             },{id: "nav-misc",
-              title: "misc.",
+              title: "Misc.",
               description: "Know me more! I am passionate about various sports, including basketball, badminton, swimming, fitness, and cycling. For the past six years, I&#39;ve maintained a daily routine of 1 hour of fitness training and 1 hour of other aerobic exercises.",
               section: "Navigation menu",
               handler: () => {
                 window.location.href = "/misc/";
               },
-            },{id: "dropdown-publications",
-                  title: "publications",
-                  description: "",
-                  section: "Dropdown",
-                  handler: () => {
-                    window.location.href = "";
-                  },
-                },{id: "dropdown-service",
-                  title: "service",
-                  description: "",
-                  section: "Dropdown",
-                  handler: () => {
-                    window.location.href = "";
-                  },
-                },{id: "dropdown-misc",
-                  title: "misc.",
-                  description: "",
-                  section: "Dropdown",
-                  handler: () => {
-                    window.location.href = "";
-                  },
-                },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
           
             title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
           
