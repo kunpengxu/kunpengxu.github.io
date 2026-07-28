@@ -1,0 +1,41 @@
+<aside class="profile-sidebar">
+  <div class="profile-sidebar__portrait-frame z-depth-1">
+    <img
+      src="{{ 'assets/img/xu.jpg' | relative_url }}"
+      class="profile-sidebar__portrait"
+      alt="{{ site.first_name }} {{ site.last_name }}"
+      loading="eager"
+    >
+  </div>
+
+  <div class="profile-sidebar__identity">
+    <h1>
+      {% if site.title == 'blank' %}
+        Dr. {{ site.first_name }} {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p>{% if site.active_lang == 'fr-ca' %}Chercheur postdoctoral{% else %}Postdoctoral Fellow{% endif %}</p>
+    <p>Polytechnique Montréal</p>
+  </div>
+
+  <div class="profile-sidebar__links">
+    <a href="https://www.google.com/maps/place/Montreal,+QC" title="Montreal, Canada">
+      <i class="fa-solid fa-location-dot"></i>
+      <span>{% if site.active_lang == 'fr-ca' %}Montréal, Canada{% else %}Montreal, Canada{% endif %}</span>
+    </a>
+    {% if site.email %}
+      <a href="mailto:{{ site.email | encode_email }}" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+        <span>{{ site.data[site.active_lang].strings.socials.email | default: 'Email' }}</span>
+      </a>
+    {% endif %}
+    {% if site.scholar_userid %}
+      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar">
+        <i class="ai ai-google-scholar"></i>
+        <span>Google Scholar</span>
+      </a>
+    {% endif %}
+  </div>
+</aside>

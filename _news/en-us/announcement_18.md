@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Thrilled to be invited as a Keynote Speaker at ***<span style="color:#b509ac"><u>the International Conference on Cyber Security and Digital Applications 2025</u></span>***.
+Thrilled to be invited as a Keynote Speaker at ***the International Conference on Cyber Security and Digital Applications 2025***!

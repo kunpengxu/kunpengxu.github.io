@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-J’ai obtenu la mention la plus élevée (Excellent) – lors de la soutenance de ma thèse de doctorat!:sparkles: 🎉 
+J’ai obtenu la mention la plus élevée (Excellent) – lors de la soutenance de ma thèse de doctorat!

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Honored to be named to the Faculty of Science Graduate Honor List 2025 at Université de Sherbrooke.
+Honored to be named to the Faculty of Science Graduate Honor List 2025 at Université de Sherbrooke!

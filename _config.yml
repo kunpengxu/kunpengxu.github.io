@@ -4,11 +4,11 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Kunpeng
-middle_name: (Chris)
+middle_name:
 last_name: Xu
-email: kunpeng.xu@usherbrooke.ca
+email: kunpeng.xu@ieee.org
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: kx-icon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://kunpengxu.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

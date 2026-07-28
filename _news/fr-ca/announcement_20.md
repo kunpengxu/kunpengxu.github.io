@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Un article est accepte par ***<span style="color:#b509ac"><u>Applied Soft Computing</u></span>***.
+Un article est accepte par ***Applied Soft Computing***!

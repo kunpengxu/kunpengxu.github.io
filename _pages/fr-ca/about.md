@@ -3,14 +3,14 @@ page_id: about
 layout: about
 title: à propos
 permalink: /
-description: "Je m'appelle Kunpeng (Chris), chercheur postdoctoral à Polytechnique Montréal. Mes intérêts de recherche incluent l'analyse des séries temporelles, l'apprentissage par noyau et l'apprentissage de la représentation autonome."
+description: "Je m'appelle Kunpeng, futur chercheur postdoctoral à Polytechnique Montréal, travaillant avec la Prof. Soumaya Cherkaoui. Mes intérêts de recherche incluent l'analyse des séries temporelles, l'apprentissage par noyau et l'apprentissage de la représentation autonome."
 subtitle: "Polytechnique Montréal, Montréal, Canada <br> Mila - Quebec AI Institute, Montreal, Canada"
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Kunpeng (Chris) Xu (徐鲲鹏)</p>
+    <p>Kunpeng Xu (徐鲲鹏)</p>
     <p>Chercheur en IA</p>
     <p>Postdoc @ PolyMtl</p>
     <p>Doctorant @ UdeS (GPA:4.3/4.3)</p>
@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 
 
 
-Bonjour ! Je m'appelle Kunpeng (Chris), un <span style="color:#b509ac">chercheur postdoctoral</span> à Polytechnique Montréal. J’ai obtenu mon doctorat au *ProspectUs-Lab* de l'Université de Sherbrooke, où j’ai eu le privilège de travailler avec <a href='https://www.usherbrooke.ca/recherche/fr/specialistes/details/shengrui.wang'>le Prof. Shengrui Wang</a> depuis 2021. Mon parcours académique est motivé par une profonde appréciation des mathématiques et de leurs structures élégantes, qui alimentent ma passion pour la recherche. Je suis particulièrement fasciné par les dérivations théoriques et la beauté des concepts mathématiques.
+Bonjour ! Je m'appelle Kunpeng, un futur chercheur postdoctoral à Polytechnique Montréal, travaillant avec la Prof. Soumaya Cherkaoui. J’ai obtenu mon doctorat au *ProspectUs-Lab* de l'Université de Sherbrooke, où j’ai eu le privilège de travailler avec le Prof. Shengrui Wang depuis 2021. Mon parcours académique est motivé par une profonde appréciation des mathématiques et de leurs structures élégantes, qui alimentent ma passion pour la recherche. Je suis particulièrement fasciné par les dérivations théoriques et la beauté des concepts mathématiques.
 
 Mes intérêts de recherche incluent l’analyse des séries temporelles, l’apprentissage par noyau, l’apprentissage de la représentation autonome, la multi-omique unicellulaire et l’inférence des réseaux de régulation génique. Je me concentre sur la prévision, l’extraction de motifs, la dérive conceptuelle et l’interprétabilité des séries temporelles ; j’explore les liens théoriques entre l’apprentissage par noyau piloté par les données et les transformateurs ; et j’examine le regroupement par sous-espace et ses applications en intelligence artificielle. Je m’intéresse également à l’IA pour les sciences (AI4Science), en particulier à l’exploration des changements de régime dans les systèmes atmosphériques et océaniques en écologie environnementale, ainsi qu’aux transitions de phase en physique.
 

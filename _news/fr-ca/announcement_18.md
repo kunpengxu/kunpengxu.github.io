@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Ravi d'avoir ete invite en tant qu'orateur principal (Keynote Speaker) a ***<span style="color:#b509ac"><u>the International Conference on Cyber Security and Digital Applications 2025</u></span>***.
+Ravi d'avoir ete invite en tant qu'orateur principal (Keynote Speaker) a ***the International Conference on Cyber Security and Digital Applications 2025***!

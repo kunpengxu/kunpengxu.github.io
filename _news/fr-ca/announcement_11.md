@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Deux articles sont acceptés par  ***<span style="color:#b509ac"><u>International Conference on Cloud and Network Computing (ICCNC 2025)</u> !</span>*** Félicitations à mes collaborateurs.:sparkles: 🎉 
+Deux articles sont acceptés par ***International Conference on Cloud and Network Computing (ICCNC 2025)!*** Félicitations à mes collaborateurs!

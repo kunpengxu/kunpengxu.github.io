@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by ***<span style="color:#b509ac"><u>Neurocomputing</u></span>***.
+One paper is accepted by ***Neurocomputing***!

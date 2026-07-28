@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Ravi que ***<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=PxG4IG0AAAAJ&sortby=pubdate&citation_for_view=PxG4IG0AAAAJ:AvfA0Oy_GE0C"><span style="color:#b509ac"><u>CausalSKyHop</u></span></a>*** ait ete accepte a ***<span style="color:#b509ac"><u>WWW 2026</u></span>*** comme article Oral. Felicitations a nos collaborateurs !
+Ravi que ***CausalSKyHop*** ait ete accepte a ***WWW 2026*** comme article Oral! Felicitations a nos collaborateurs!

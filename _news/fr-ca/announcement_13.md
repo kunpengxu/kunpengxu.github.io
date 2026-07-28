@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Un article est accepté par ***<span style="color:#b509ac"><u>IEEE Transactions on Artificial Intelligence (TAI)</u> !</span>*** 
-
+Un article est accepté par ***IEEE Transactions on Artificial Intelligence (TAI)!***

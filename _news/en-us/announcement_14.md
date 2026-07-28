@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by ***<span style="color:#b509ac"><u>Pattern Recognition (PR) </u> !</span>*** 
+One paper is accepted by ***Pattern Recognition (PR)!***
