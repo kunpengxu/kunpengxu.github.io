@@ -244,8 +244,7 @@ body > .container.mt-5 {
   }
 
   .profile-sidebar {
-    position: sticky;
-    top: 5.5rem;
+    position: static;
     align-self: start;
     width: 180px;
     margin: 0 auto;
@@ -316,10 +315,12 @@ body > .container.mt-5 {
   }
 
   .home-main {
+    grid-column: 2;
     max-width: 900px;
   }
 
   .profile-page-main {
+    grid-column: 2;
     max-width: 900px;
     min-width: 0;
 
