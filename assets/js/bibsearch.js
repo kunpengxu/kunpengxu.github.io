@@ -1,6 +1,10 @@
 import { highlightSearchTerm } from "./highlight-search-term.js";
 
-document.addEventListener("DOMContentLoaded", function () {
+export function initBibSearch() {
+  const input = document.getElementById("bibsearch");
+  if (!input || input.dataset.initialized === "true") return;
+  input.dataset.initialized = "true";
+
   // actual bibsearch logic
   const filterItems = (searchTerm) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
@@ -58,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Sensitive search. Only start searching if there's been no input for 300 ms
   let timeoutId;
-  document.getElementById("bibsearch").addEventListener("input", function () {
+  input.addEventListener("input", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
     const searchTerm = this.value.toLowerCase();
     timeoutId = setTimeout(filterItems(searchTerm), 300);
@@ -67,4 +71,6 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
 
   updateInputField(); // Update filter when page loads
-});
+}
+
+document.addEventListener("DOMContentLoaded", initBibSearch);
