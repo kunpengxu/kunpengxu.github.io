@@ -209,7 +209,7 @@ ul.task-list input[type="checkbox"] {
 
 // Homepage profile layout
 
-.page-about > .container.mt-5 {
+body > .container.mt-5 {
   margin-top: 1.35rem !important;
 }
 
@@ -516,6 +516,7 @@ ul.task-list input[type="checkbox"] {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   opacity: 0.95;
 }
 
@@ -555,24 +556,27 @@ ul.task-list input[type="checkbox"] {
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: #545b60;
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: #6f777d;
+    font-size: 0.98rem;
+    font-weight: 700;
+    letter-spacing: 0;
 
     &:hover {
-      color: var(--global-hover-color);
+      color: #2f5f8f;
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
-    color: var(--global-theme-color);
+    font-weight: 800;
+    color: #2f5f8f;
 
     &:hover {
-      color: var(--global-hover-color);
+      color: #2f5f8f;
     }
   }
 
