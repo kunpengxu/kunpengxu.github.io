@@ -2,7 +2,7 @@
 page_id: service
 layout: page
 permalink: /Service/
-title: service
+title: Service
 description: 
 nav: true
 nav_order: 4
@@ -39,4 +39,3 @@ nav_order: 4
 - **International Journal of Forecasting**
 - **Journal of Hydrology**
 - **Applied Soft Computing**
-

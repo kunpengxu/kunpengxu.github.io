@@ -211,6 +211,7 @@ ul.task-list input[type="checkbox"] {
 
 body > .container.mt-5 {
   margin-top: 1.35rem !important;
+  padding-bottom: 2.5rem;
 }
 
 .home-profile-page,
@@ -321,6 +322,23 @@ body > .container.mt-5 {
   .profile-page-main {
     max-width: 900px;
     min-width: 0;
+
+    h2 {
+      color: var(--global-text-color);
+      font-size: 1.45rem;
+      line-height: 1.25;
+      font-weight: 700;
+      margin-top: 1.25rem;
+      margin-bottom: 0.55rem;
+    }
+
+    ul {
+      margin-bottom: 1.1rem;
+    }
+
+    li {
+      line-height: 1.42;
+    }
   }
 
   .profile-page-main > .post {
@@ -384,7 +402,7 @@ body > .container.mt-5 {
     }
 
     li {
-      margin-bottom: 0.22em;
+      margin-bottom: 0.34em;
       padding-left: 0;
       font-size: 0.95rem;
       line-height: 1.36;
@@ -454,13 +472,15 @@ body > .container.mt-5 {
   .profile-page-shell {
     display: block;
     left: auto;
-    width: auto;
-    margin-top: 1.5rem;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0.75rem;
     transform: none;
+    overflow-x: hidden;
 
     .profile-sidebar {
       position: static;
-      margin-bottom: 2rem;
+      margin-bottom: 1.9rem;
       text-align: center;
     }
 
@@ -473,6 +493,50 @@ body > .container.mt-5 {
       margin: 0 auto;
       text-align: left;
     }
+
+    .profile-page-main,
+    .home-main {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  body > .container.mt-5 {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0.85rem !important;
+    padding-right: 1.15rem;
+    padding-bottom: 4.5rem;
+    padding-left: 1.15rem;
+    overflow-x: hidden;
+  }
+
+  .post,
+  .post p,
+  .post li,
+  .profile-page-main,
+  .publications {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .publications {
+    margin-top: 1.25rem;
+
+    ol.bibliography li {
+      margin-bottom: 1.65rem;
+    }
+  }
+
+  .home-about,
+  .profile-page-main {
+    font-size: 0.9rem;
+    line-height: 1.48;
   }
 }
 
@@ -904,8 +968,42 @@ footer.sticky-bottom {
   }
 
   .card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition:
+      box-shadow 0.18s ease,
+      transform 0.18s ease;
+
+    &:hover {
+      box-shadow: 0 5px 14px rgba(0, 0, 0, 0.11);
+      transform: translateY(-1px);
+    }
+
     img {
       width: 100%;
+    }
+
+    .card-img-top {
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 1rem;
+    }
+
+    .card-title {
+      margin-bottom: 0.45rem;
+      font-size: 1.35rem;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    .card-text {
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+      line-height: 1.4;
     }
   }
 
@@ -922,8 +1020,8 @@ footer.sticky-bottom {
   h2.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
+    padding-top: 0.25rem;
+    margin-top: 1.3rem;
     margin-bottom: 1rem;
     text-align: right;
   }
@@ -932,7 +1030,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1.8rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -954,7 +1052,7 @@ footer.sticky-bottom {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
-    margin-top: 2rem;
+    margin-top: 1.7rem;
     text-align: right;
   }
 
@@ -964,7 +1062,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.35rem;
 
       .preview {
       }

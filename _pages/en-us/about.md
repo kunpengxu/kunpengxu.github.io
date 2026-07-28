@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: about
+title: About
 permalink: /
 description: "I'm Kunpeng, a Postdoctoral Fellow at Polytechnique Montréal, working with Prof. Soumaya Cherkaoui. My research interests include time series analysis, kernel learning, and self-representation learning."
 subtitle: "Polytechnique Montréal, Montreal, Canada <br> Mila - Quebec AI Institute, Montreal, Canada"

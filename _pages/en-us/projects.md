@@ -1,11 +1,11 @@
 ---
 page_id: projects
 layout: page
-title: misc.
+title: Misc.
 permalink: /misc/
 description: Know me more! I am passionate about various sports, including basketball, badminton, swimming, fitness, and cycling. For the past six years, I've maintained a daily routine of 1 hour of fitness training and 1 hour of other aerobic exercises.
 nav: true
-nav_order: 6
+nav_order: 7
 display_categories: [fun]
 horizontal: false
 ---
