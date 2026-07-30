@@ -1,44 +1,52 @@
 ---
 layout: default
 ---
+
 <div class="profile-page-shell home-profile-page">
   {% include profile_sidebar.liquid %}
 
   <main class="profile-page-main home-main">
-    <section class="home-about">
-      {{ content }}
+    <section class="home-hero" style="background-image: url('{{ 'assets/img/research-banner.png' | relative_url }}');" aria-labelledby="home-hero-title">
+      <div class="home-hero__copy">
+        <h1 id="home-hero-title">Representation Learning for Trustworthy AI</h1>
+        <p>Advancing trustworthy AI through principled representation learning.</p>
+      </div>
     </section>
 
-    {% if page.news and site.announcements.enabled %}
-      <section class="home-section home-news">
-        <h2>
-          <span class="home-section__icon">🔥</span>
-          <span>{{ site.data[site.active_lang].strings.news | default: 'news' | capitalize }}</span>
-        </h2>
-        {% assign news = site.news | reverse %}
-        {% if site.announcements.limit %}
-          {% assign news_limit = site.announcements.limit %}
-        {% else %}
-          {% assign news_limit = site.news | size %}
-        {% endif %}
-        <ul>
-          {% for item in news limit: news_limit %}
-            <li>
-              {% assign news_text = item.content | strip_html | downcase %}
-              <em>{{ item.date | date: '%Y.%m' }}</em>:
-              {% if news_text contains 'accepted' or news_text contains 'accepté' or news_text contains 'accepte' %}
-                <span class="home-news__celebration">🎉🎉</span>
-              {% endif %}
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
+    <div class="home-intro-grid">
+      <section class="home-about">
+        {{ content }}
       </section>
-    {% endif %}
+
+      {% if page.news and site.announcements.enabled %}
+        <section class="home-section home-news">
+          <h2>
+            <span class="home-section__icon">🔥</span>
+            <span>Latest News</span>
+            <a class="home-news__all-link" href="{{ '/news/' | relative_url }}">View all news <span aria-hidden="true">→</span></a>
+          </h2>
+          <div class="home-news__body">
+            {% assign news = site.news | reverse %}
+            <ul>
+              {% for item in news limit: 14 %}
+                <li>
+                  {% assign news_text = item.content | strip_html | downcase %}
+                  <em>{{ item.date | date: '%Y.%m' }}</em>:
+                  {% if news_text contains 'accepted' or news_text contains 'accepté' or news_text contains 'accepte' %}
+                    <span class="home-news__celebration">🎉🎉</span>
+                  {% endif %}
+                  {% if item.inline %}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </section>
+      {% endif %}
+    </div>
 
     {% if page.selected_papers %}
       <section class="home-section home-publications">
