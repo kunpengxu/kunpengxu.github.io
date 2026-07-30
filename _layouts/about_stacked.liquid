@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="profile-page-shell home-profile-page">
+<div class="profile-page-shell home-profile-page home-profile-page--stacked">
   {% include profile_sidebar.liquid %}
 
   <main class="profile-page-main home-main">
@@ -13,7 +13,7 @@ layout: default
       </div>
     </section>
 
-    <div class="home-intro-grid">
+    <div class="home-stacked-sections">
       <section class="home-about">
         {{ content }}
       </section>
@@ -46,16 +46,16 @@ layout: default
           </div>
         </section>
       {% endif %}
-    </div>
 
-    {% if page.selected_papers %}
-      <section class="home-section home-publications">
-        <h2>
-          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.selected_publications }}</a>
-        </h2>
-        {% include selected_papers.liquid %}
-      </section>
-    {% endif %}
+      {% if page.selected_papers %}
+        <section class="home-section home-publications">
+          <h2>
+            <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.selected_publications }}</a>
+          </h2>
+          {% include selected_papers.liquid %}
+        </section>
+      {% endif %}
+    </div>
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}

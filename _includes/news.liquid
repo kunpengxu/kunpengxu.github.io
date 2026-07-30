@@ -15,9 +15,15 @@
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}
+          {% assign news_text = item.content | strip_html | downcase %}
           <tr>
             <th scope="row" style="width: 20%">{% include date_format.liquid format='short' date=item.date %}</th>
             <td>
+              {% if include.full_news %}
+                {% if news_text contains 'accepted' or news_text contains 'accepté' or news_text contains 'accepte' %}
+                  <span class="news-full-prefix">🎉🎉</span>&nbsp;
+                {% endif %}
+              {% endif %}
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
