@@ -250,7 +250,7 @@ body.page-about_stacked > .container.mt-5 {
   position: relative;
   width: 100%;
   max-width: 1280px;
-  grid-template-columns: 240px minmax(0, 1fr);
+  grid-template-columns: 200px minmax(0, 1fr);
   gap: 3.25rem;
   align-items: start;
   margin-right: auto;
@@ -276,12 +276,12 @@ body.page-about_stacked > .container.mt-5 {
   .profile-sidebar {
     position: static;
     align-self: start;
-    width: 180px;
-    margin: 0 auto;
+    width: 150px;
+    margin: 0.8rem auto 0;
   }
 
   .profile-sidebar__portrait-frame {
-    width: 180px;
+    width: 150px;
     aspect-ratio: 1;
     overflow: hidden;
     margin: 0 auto 1.15rem;
@@ -305,8 +305,8 @@ body.page-about_stacked > .container.mt-5 {
     h1 {
       margin-bottom: 0.35rem;
       color: #494e52;
-      font-size: 1.34rem;
-      line-height: 1.15;
+      font-size: 1.05rem;
+      line-height: 1.2;
       font-weight: 700;
       letter-spacing: 0;
     }
@@ -314,6 +314,7 @@ body.page-about_stacked > .container.mt-5 {
     p {
       margin: 0.08rem 0;
       color: #5c6266;
+      font-size: 0.8rem;
       font-weight: 700;
       line-height: 1.38;
     }
@@ -462,7 +463,7 @@ body.page-about_stacked > .container.mt-5 {
 
   .home-intro-grid {
     display: grid;
-    grid-template-columns: minmax(0, 5.5fr) minmax(250px, 4.5fr);
+    grid-template-columns: minmax(0, 6fr) minmax(250px, 4fr);
     gap: 1.5rem;
     align-items: start;
     align-content: start;
@@ -534,6 +535,7 @@ body.page-about_stacked > .container.mt-5 {
     flex-direction: column;
     box-sizing: border-box;
     margin-top: 0;
+    padding-top: 0;
     padding-bottom: 1.1rem;
     padding-left: 1.25rem;
     border-top: 0;
@@ -557,7 +559,7 @@ body.page-about_stacked > .container.mt-5 {
     li {
       margin-bottom: 0.34em;
       padding-left: 0;
-      font-size: 0.8rem;
+      font-size: 0.72rem;
       line-height: 1.36;
       font-weight: 400;
     }
@@ -649,7 +651,7 @@ body.page-about_stacked > .container.mt-5 {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .home-intro-grid {
-    grid-template-columns: minmax(0, 5.5fr) minmax(220px, 4.5fr);
+    grid-template-columns: minmax(0, 7fr) minmax(220px, 3fr);
   }
 }
 
@@ -704,6 +706,7 @@ body.page-about_stacked > .container.mt-5 {
 
     .home-news {
       margin-top: 1.2rem;
+      padding-top: 0.85rem;
       padding-left: 0;
       border-top: 1px solid var(--global-divider-color);
       border-left: 0;

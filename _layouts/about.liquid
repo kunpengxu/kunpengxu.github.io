@@ -28,7 +28,7 @@ layout: default
           <div class="home-news__body">
             {% assign news = site.news | reverse %}
             <ul>
-              {% for item in news limit: 13 %}
+              {% for item in news limit: 14 %}
                 <li>
                   {% assign news_text = item.content | strip_html | downcase %}
                   <em>{{ item.date | date: '%Y.%m' }}</em>:
