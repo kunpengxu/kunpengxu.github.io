@@ -15,7 +15,7 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-***<span style="color:#2f5f8f">Under review</span>*** *(not listed in the publications below): 7 papers submitted to AAAI 2027, 2 papers submitted to NeurIPS 2026, 1 paper submitted to ACM Computing Surveys, 1 paper submitted to IEEE TNNLS, 1 paper submitted to IEEE TKDE, and 1 paper submitted to IEEE TPAMI.*
+***<span style="color:#2f5f8f">Under review</span>*** *(not listed in the publications below): 7 papers submitted to AAAI 2027, 2 papers submitted to NeurIPS 2026, 1 paper submitted to ACM Computing Surveys, 1 paper submitted to IEEE TNNLS, 1 paper submitted to IEEE TKDE, and 2 paper submitted to IEEE TPAMI.*
 <div class="publications">
 
 {% bibliography %}
