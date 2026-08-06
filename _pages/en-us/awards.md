@@ -13,4 +13,4 @@ nav_order: 6
 - **Apr 2025**: Fonds de recherche du Québec - Nature et technologies (FRQNT) Postdoctoral Research Grant, 2025-2027.
 - **Feb 2025**: AAAI 2025 Travel Award.
 - **Jan 2023**: Valorisation des travaux étudiants UdeS.
-- **May 2022**: NSERC Doctoral Scholarship.
+- **May 2022**: NSERC Doctoral Scholarship, 2022-2025.
