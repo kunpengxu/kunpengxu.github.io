@@ -325,6 +325,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: year, month
+  order: descending, descending
   group_by: year
   group_order: descending
 

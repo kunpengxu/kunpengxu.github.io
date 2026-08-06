@@ -221,7 +221,14 @@ body > .container.mt-5 {
 }
 
 body.page-about > .container.mt-5,
-body.page-about_stacked > .container.mt-5 {
+body.page-about_stacked > .container.mt-5,
+body.page-publications > .container.mt-5,
+body.page-service > .container.mt-5,
+body.page-talks > .container.mt-5,
+body.page-awards > .container.mt-5,
+body.page-news > .container.mt-5,
+body.page-projects > .container.mt-5,
+body.page-repositories > .container.mt-5 {
   width: min(1280px, calc(100vw - 2rem));
   max-width: calc(100vw - 2rem);
   margin-top: 0 !important;
@@ -353,7 +360,7 @@ body.page-about_stacked > .container.mt-5 {
 
   .profile-page-main {
     grid-column: 2;
-    max-width: 900px;
+    max-width: 980px;
     min-width: 0;
 
     h2 {
@@ -559,7 +566,7 @@ body.page-about_stacked > .container.mt-5 {
     li {
       margin-bottom: 0.34em;
       padding-left: 0;
-      font-size: 0.72rem;
+      font-size: 0.75rem;
       line-height: 1.36;
       font-weight: 400;
     }
@@ -646,6 +653,12 @@ body.page-about_stacked > .container.mt-5 {
     .home-publications {
       margin-top: 0;
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-page-shell:not(.home-profile-page) .profile-sidebar {
+    margin-top: -0.55rem;
   }
 }
 
@@ -1288,10 +1301,20 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1.35rem;
 
+      .row {
+        flex-wrap: nowrap;
+      }
+
       .preview {
+        display: block;
+        width: 100%;
+        max-width: 140px;
+        height: auto;
       }
 
       .abbr {
+        flex: 0 0 150px;
+        max-width: 150px;
         margin-bottom: 0.5rem;
 
         abbr {
@@ -1312,6 +1335,11 @@ footer.sticky-bottom {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
+      }
+
+      .abbr + div {
+        flex: 1 1 auto;
+        max-width: none;
       }
 
       .title {
