@@ -552,8 +552,11 @@ body.page-repositories > .container.mt-5 {
 
     .home-news__body {
       min-height: 0;
-      overflow: visible;
-      flex: 0 0 auto;
+      max-height: 35rem;
+      overflow-y: auto;
+      flex: 0 1 auto;
+      padding-right: 0.45rem;
+      scrollbar-gutter: stable;
     }
 
     ul {
@@ -728,8 +731,8 @@ body.page-repositories > .container.mt-5 {
       padding-bottom: 1rem;
 
       .home-news__body {
-        max-height: none;
-        overflow: visible;
+        max-height: 34rem;
+        overflow-y: auto;
       }
     }
 
