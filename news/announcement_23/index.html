@@ -20,13 +20,12 @@
 <title>
   
     
-    
-      a post with tabs | Kunpeng Xu
+      Announcement_23 | Kunpeng Xu
     
   
 </title>
 <meta name="author" content="Kunpeng Xu">
-<meta name="description" content="this is what included tabs in a post could look like">
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.">
 
   <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
@@ -64,7 +63,7 @@
   <link rel="shortcut icon" href="/assets/img/kx-icon.svg?6fbd343175defe3acc1c3f7e3fdefb1e">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="https://kunpengxu.github.io/blog/2024/tabs/">
+<link rel="canonical" href="https://kunpengxu.github.io/news/announcement_23/">
 
 <!-- Dark Mode -->
 <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
@@ -289,7 +288,7 @@
               
               <li class="nav-item active">
                 
-                  <a class="nav-link language-link" href="/fr-ca/blog/2024/tabs/">
+                  <a class="nav-link language-link" href="/fr-ca/news/announcement_23/">
                     
                       FR-CA</a>
                 
@@ -378,7 +377,7 @@
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">a post with tabs</h1>
+    <h1 class="post-title">Announcement_23</h1>
     <p class="post-meta">
       Created in
       
@@ -387,39 +386,15 @@
 
 
 
-May 2024
+August 2026
       
     </p>
     <p class="post-tags">
       
-        <a href="/blog/2024"> <i class="fa-solid fa-calendar fa-sm"></i> 2024 </a>
+        <i class="fa-solid fa-calendar fa-sm"></i> 2026
       
-      
-          ·  
-        
-          
-            <a href="/blog/tag/formatting"> <i class="fa-solid fa-hashtag fa-sm"></i> formatting</a>
-          
-          
-             
-          
-        
-          
-            <a href="/blog/tag/code"> <i class="fa-solid fa-hashtag fa-sm"></i> code</a>
-          
-          
-        
       
 
-      
-          ·  
-        
-          
-            <a href="/blog/category/sample-posts">
-              <i class="fa-solid fa-tag fa-sm"></i> sample-posts</a>
-          
-          
-        
       
     </p>
   </header>
@@ -427,146 +402,7 @@ May 2024
   <article class="post-content">
     
     <div id="markdown-content">
-      <p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs" rel="external nofollow noopener" target="_blank">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p>
-
-<h2 id="first-tabs">First tabs</h2>
-
-<p>To add tabs, use the following syntax:</p>
-
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
-
-Content 1
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
-
-Content 2
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
-
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div>
-
-<p>With this you can generate visualizations like:</p>
-
-<ul id="log" class="tab" data-tab="fe6c0f3f-c226-43fc-b230-8a1f109b5e46" data-name="log">
-  
-      <li class="active" id="log-php">
-          <a href="#">php </a>
-      </li>
-  
-      <li id="log-js">
-          <a href="#">js </a>
-      </li>
-  
-      <li id="log-ruby">
-          <a href="#">ruby </a>
-      </li>
-  
-</ul>
-<ul class="tab-content" id="fe6c0f3f-c226-43fc-b230-8a1f109b5e46" data-name="log">
-  
-      <li class="active">
-<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
-</code></pre></div></div>
-
-</li>
-  
-      <li>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div>
-
-</li>
-  
-      <li>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div>
-
-</li>
-  
-</ul>
-
-<h2 id="another-example">Another example</h2>
-
-<ul id="data-struct" class="tab" data-tab="c9cb4b4f-f530-42e7-9d6d-347edbd2f4da" data-name="data-struct">
-  
-      <li class="active" id="data-struct-yaml">
-          <a href="#">yaml </a>
-      </li>
-  
-      <li id="data-struct-json">
-          <a href="#">json </a>
-      </li>
-  
-</ul>
-<ul class="tab-content" id="c9cb4b4f-f530-42e7-9d6d-347edbd2f4da" data-name="data-struct">
-  
-      <li class="active">
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
-</code></pre></div></div>
-
-</li>
-  
-      <li>
-<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div>
-
-</li>
-  
-</ul>
-
-<h2 id="tabs-for-something-else">Tabs for something else</h2>
-
-<ul id="something-else" class="tab" data-tab="2681df1e-0d99-423d-a99f-525cac31920e" data-name="something-else">
-  
-      <li class="active" id="something-else-text">
-          <a href="#">text </a>
-      </li>
-  
-      <li id="something-else-quote">
-          <a href="#">quote </a>
-      </li>
-  
-      <li id="something-else-list">
-          <a href="#">list </a>
-      </li>
-  
-</ul>
-<ul class="tab-content" id="2681df1e-0d99-423d-a99f-525cac31920e" data-name="something-else">
-  
-      <li class="active">
-<p>Regular text</p>
-
-</li>
-  
-      <li>
-<blockquote>
-  <p>A quote</p>
-</blockquote>
-
-</li>
-  
-      <li>
-<p>Hipster list</p>
-
-<ul>
-  <li>brunch</li>
-  <li>fixie</li>
-  <li>raybans</li>
-  <li>messenger bag</li>
-</ul>
-
-</li>
-  
-</ul>
-
+      <p>One paper is accepted by <strong><em>The 23rd IEEE International Conference on Mobile Ad-Hoc and Smart Systems (IEEE MASS 2026)!</em></strong></p>
 
     </div>
   </article>
@@ -576,51 +412,6 @@ Content 2
   
 
   
-    
-      
-
-  
-    
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
-
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/typograms/">a post with typograms</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/post-citation/">a post that can be cited</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/pseudocode/">a post with pseudo code</a>
-  </li>
-
-
-
     
   
 
@@ -811,8 +602,6 @@ Content 2
     
 
     
-  <script src="/assets/js/tabs.min.js?b8748955e1076bbe0dabcf28f2549fdc"></script>
-
 
     
   <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
@@ -1263,50 +1052,50 @@ Content 2
               window.location.href = "/blog/2015/formatting-and-links/";
             
           },
-        },{id: "news-oral-presentation-about-our-work-quot-data-driven-kernel-subspace-clustering-with-local-manifold-preservation-quot-at-2022-ieee-international-conference-on-data-mining-icdm-https-www-computer-org-csdl-proceedings-icdm-2022-1kpchqa9kq0-in-orlando-us",
-              title: 'Oral presentation about our work &quot;Data-driven Kernel Subspace Clustering with Local Manifold Preservation&quot;...',
+        },{id: "news-oral-presentation-about-our-work-data-driven-kernel-subspace-clustering-with-local-manifold-preservation-at-2022-ieee-international-conference-on-data-mining-icdm-in-orlando-us",
+              title: 'Oral presentation about our work “Data-driven Kernel Subspace Clustering with Local Manifold Preservation”...',
               description: "",
-              section: "News",},{id: "news-oral-presentation-about-our-work-quot-rhine-a-regime-switching-model-with-nonlinear-representation-for-discovering-and-forecasting-regimes-in-financial-markets-quot-at-siam-international-conference-on-data-mining-sdm-2024-in-houston-us",
-              title: 'Oral presentation about our work &quot;RHINE: A Regime-Switching Model with Nonlinear Representation for...',
+              section: "News",},{id: "news-oral-presentation-about-our-work-rhine-a-regime-switching-model-with-nonlinear-representation-for-discovering-and-forecasting-regimes-in-financial-markets-at-siam-international-conference-on-data-mining-sdm-2024-in-houston-us",
+              title: 'Oral presentation about our work “RHINE: A Regime-Switching Model with Nonlinear Representation for...',
               description: "",
-              section: "News",},{id: "news-will-serve-as-a-session-chair-for-quot-classification-amp-clustering-session-quot-at-28th-pacific-asia-conference-on-knowledge-discovery-and-data-mining-pakdd-2024-in-taipei",
-              title: 'Will serve as a **Session Chair** for &quot;Classification &amp; Clustering Session&quot; at ***28th...',
+              section: "News",},{id: "news-will-serve-as-a-session-chair-for-classification-amp-amp-clustering-session-at-28th-pacific-asia-conference-on-knowledge-discovery-and-data-mining-pakdd-2024-in-taipei",
+              title: 'Will serve as a Session Chair for “Classification &amp;amp; Clustering Session” at 28th...',
               description: "",
-              section: "News",},{id: "news-oral-presentation-about-our-work-quot-kernel-representation-learning-with-dynamic-regime-discovery-for-time-series-forecasting-quot-at-28th-pacific-asia-conference-on-knowledge-discovery-and-data-mining-pakdd-2024-in-taipei",
-              title: 'Oral presentation about our work &quot;Kernel Representation Learning with Dynamic Regime Discovery for...',
+              section: "News",},{id: "news-oral-presentation-about-our-work-kernel-representation-learning-with-dynamic-regime-discovery-for-time-series-forecasting-at-28th-pacific-asia-conference-on-knowledge-discovery-and-data-mining-pakdd-2024-in-taipei",
+              title: 'Oral presentation about our work “Kernel Representation Learning with Dynamic Regime Discovery for...',
               description: "",
-              section: "News",},{id: "news-oral-presentation-about-our-work-quot-drnet-a-decision-making-method-for-autonomous-lane-changing-with-deep-reinforcement-learning-quot-at-canadian-conference-on-artificial-intelligence-canadian-ai-2024-in-guelph",
-              title: 'Oral presentation about our work &quot;DRNet: A Decision-Making Method for Autonomous Lane Changing...',
+              section: "News",},{id: "news-oral-presentation-about-our-work-drnet-a-decision-making-method-for-autonomous-lane-changing-with-deep-reinforcement-learning-at-canadian-conference-on-artificial-intelligence-canadian-ai-2024-in-guelph",
+              title: 'Oral presentation about our work “DRNet: A Decision-Making Method for Autonomous Lane Changing...',
               description: "",
               section: "News",},{id: "news-passed-the-level-2-of-the-québec-scale-of-french-proficiency-with-a-score-of-92-100",
-              title: 'Passed the Level 2 of the ***Québec scale of French proficiency*** with a...',
+              title: 'Passed the Level 2 of the Québec scale of French proficiency with a...',
               description: "",
               section: "News",},{id: "news-glad-to-be-invited-by-prof-yue-li-to-give-a-talk-at-school-of-computer-science-mcgill-university",
-              title: 'Glad to be invited by **Prof. Yue Li** to give a talk at...',
+              title: 'Glad to be invited by Prof. Yue Li to give a talk at...',
               description: "",
               section: "News",},{id: "news-one-paper-is-accepted-by-conference-on-neural-information-processing-systems-neurips-2024-tsalm",
-              title: 'One paper is accepted by ***Conference on Neural Information Processing Systems (NeurIPS 2024)...',
+              title: 'One paper is accepted by Conference on Neural Information Processing Systems (NeurIPS 2024)...',
               description: "",
               section: "News",},{id: "news-one-paper-is-accepted-by-39th-aaai-conference-on-artificial-intelligence-aaai-2025",
-              title: 'One paper is accepted by ***39th AAAI Conference on Artificial Intelligence (AAAI 2025)!***...',
+              title: 'One paper is accepted by 39th AAAI Conference on Artificial Intelligence (AAAI 2025)!...',
               description: "",
               section: "News",},{id: "news-one-paper-is-accepted-by-ai-for-time-series-ai4ts-workshop-at-the-39th-aaai-conference-on-artificial-intelligence-aaai-2025",
-              title: 'One paper is accepted by ***AI for Time Series (AI4TS) Workshop at the...',
+              title: 'One paper is accepted by AI for Time Series (AI4TS) Workshop at the...',
               description: "",
               section: "News",},{id: "news-glad-to-be-awarded-the-fonds-de-recherche-du-québec-nature-et-technologies-frqnt-postdoctoral-research-grant-2025-2027",
-              title: 'Glad to be awarded the ***Fonds de recherche du Québec – Nature et...',
+              title: 'Glad to be awarded the Fonds de recherche du Québec – Nature et...',
               description: "",
               section: "News",},{id: "news-two-paper-are-accepted-by-international-conference-on-cloud-and-network-computing-iccnc-2025-congrats-to-my-collaborators",
-              title: 'Two paper are accepted by ***International Conference on Cloud and Network Computing (ICCNC...',
+              title: 'Two paper are accepted by International Conference on Cloud and Network Computing (ICCNC...',
               description: "",
               section: "News",},{id: "news-one-paper-is-accepted-by-34th-international-joint-conference-on-artificial-intelligence-ijcai-2025",
-              title: 'One paper is accepted by ***34th International Joint Conference on Artificial Intelligence (IJCAI...',
+              title: 'One paper is accepted by 34th International Joint Conference on Artificial Intelligence (IJCAI...',
               description: "",
               section: "News",},{id: "news-one-paper-is-accepted-by-ieee-transactions-on-artificial-intelligence-tai",
-              title: 'One paper is accepted by ***IEEE Transactions on Artificial Intelligence (TAI)!***',
+              title: 'One paper is accepted by IEEE Transactions on Artificial Intelligence (TAI)!',
               description: "",
               section: "News",},{id: "news-one-paper-is-accepted-by-pattern-recognition-pr",
-              title: 'One paper is accepted by ***Pattern Recognition (PR)!***',
+              title: 'One paper is accepted by Pattern Recognition (PR)!',
               description: "",
               section: "News",},{id: "news-i-passed-my-ph-d-defense-with-the-highest-evaluation-excellent",
               title: 'I passed my Ph.D defense with the highest evaluation (Excellent)!',
@@ -1315,19 +1104,19 @@ Content 2
               title: 'Honored to be named to the Faculty of Science Graduate Honor List 2025...',
               description: "",
               section: "News",},{id: "news-thrilled-to-be-invited-as-a-keynote-speaker-at-the-international-conference-on-cyber-security-and-digital-applications-2025",
-              title: 'Thrilled to be invited as a Keynote Speaker at ***the International Conference on...',
+              title: 'Thrilled to be invited as a Keynote Speaker at the International Conference on...',
               description: "",
               section: "News",},{id: "news-excited-that-causalskyhop-has-been-accepted-to-www-2026-as-an-oral-paper-congratulations-to-our-collaborators",
-              title: 'Excited that ***CausalSKyHop*** has been accepted to ***WWW 2026*** as an Oral paper!...',
+              title: 'Excited that CausalSKyHop has been accepted to WWW 2026 as an Oral paper!...',
               description: "",
               section: "News",},{id: "news-one-paper-is-accepted-by-applied-soft-computing",
-              title: 'One paper is accepted by ***Applied Soft Computing***!',
+              title: 'One paper is accepted by Applied Soft Computing!',
               description: "",
               section: "News",},{id: "news-one-paper-is-accepted-by-neurocomputing",
-              title: 'One paper is accepted by ***Neurocomputing***!',
+              title: 'One paper is accepted by Neurocomputing!',
               description: "",
               section: "News",},{id: "news-one-paper-is-accepted-by-the-23rd-ieee-international-conference-on-mobile-ad-hoc-and-smart-systems-ieee-mass-2026",
-              title: 'One paper is accepted by ***The 23rd IEEE International Conference on Mobile Ad-Hoc...',
+              title: 'One paper is accepted by The 23rd IEEE International Conference on Mobile Ad-Hoc...',
               description: "",
               section: "News",},{id: "projects-sports",
               title: 'Sports',
@@ -1370,7 +1159,7 @@ Content 2
               title: 'fr-ca',
               section: 'Languages',
               handler: () => {
-                window.location.href = "/fr-ca/blog/2024/tabs/";
+                window.location.href = "/fr-ca/news/announcement_23/";
               },
             },{
           id: 'light-theme',
