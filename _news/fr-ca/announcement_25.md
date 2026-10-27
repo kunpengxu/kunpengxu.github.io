@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Lauréat de la ***bourse DAAD Postdoc-NeT-AI***! Au plaisir de participer à une visite de réseautage d’une semaine en Allemagne et à de futurs échanges de recherche de courte durée.
+Lauréat de la ***bourse DAAD Postdoc-NeT-AI (Allemagne)***! Au plaisir de participer à une visite de réseautage d’une semaine en Allemagne et à de futurs échanges de recherche de courte durée.

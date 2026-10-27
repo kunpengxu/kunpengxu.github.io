@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded the ***DAAD Postdoc-NeT-AI Fellowship***! Looking forward to a one-week networking visit to Germany and further short-term research exchanges.
+Awarded the ***DAAD Postdoc-NeT-AI Fellowship (Germany)***! Looking forward to a one-week networking visit to Germany and further short-term research exchanges.
